@@ -29,31 +29,6 @@
   
   
   <entry>
-    <title>Blog搭建思路</title>
-    <link href="/2024/06/13/hexo-github%E6%90%AD%E5%BB%BAblog/"/>
-    <url>/2024/06/13/hexo-github%E6%90%AD%E5%BB%BAblog/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Blog搭建思路"><a href="#Blog搭建思路" class="headerlink" title="Blog搭建思路"></a>Blog搭建思路</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本来想按部就班的写一个搭建blog的博客，但是我想了一下，市面上有很多搭建blog的文章，小白入门的，高手进阶的，又或者是官方文档，该有的都有了，我如果继续重复的造轮子是不是没有什么意思？于是我想写一个只描述搭建思路的教程。因为官方文档会不断的更新操作类的教程，而且这种操作每隔一段时间都会更新，但是思路是不会变的，除非是协议变了，或者是新开了一个赛道.</p><h3 id="搭建思路"><a href="#搭建思路" class="headerlink" title="搭建思路"></a>搭建思路</h3><p>想要搭建一个blog，首先就是基础设施，可以是你自己的个人设备又或者是云上购买服务器，但是这些都需要维护，对于普通人不太合适，对于一名学生党的我，肯定是买不起服务器了，于是就选择了免费的静态blog，将我的服务托管在github上，github有一个功能叫做github page,它可以免费的将你的网站托管在github服务器上，并且还可以自定义域名什么的。或者你也可以选择wordpress提供的免费服务，搭建一个免费的动态blog。不过免费终归有些许的限制，如果需求不大，只是简单的谢谢文章，存放少量的图片，那我觉着这些是完全够用的。</p><h3 id="加速-https"><a href="#加速-https" class="headerlink" title="加速&amp;https"></a>加速&amp;https</h3><p>有了一个免费的托管平台之后，就要考虑到加速和https了。加速有免费的吗？当然有，那就是<a href>cloudflare</a>，不过对于国内这个加速效果微乎甚微，但是对于我个人而言是足够了，还支持https。</p><h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><p>但是在这之前需要有一个前提，那就是需要一个域名，你必须拥有一个域名才能够完成将github的服务托管到cloudflare上。github当中有一个功能那就是自定义域名，默认的域名是<username>.github.io这样的形式，例如我购买了一个example.com的域名，我可以在github上设置example.com为我的主域名。</username></p><p>域名就必须要购买，现在市面上也许还存在一些免费的域名，但是都不太稳定，前段时间有些免费的域名都非封禁了，如果想要稳定些直接购买一个比较稳妥，免得折腾来折腾去最后得不偿失，我是在阿里云购买的域名，国内的域名一般都需要备案，但是我没有，我选择了实名认证。认证速度很快，备案的话就慢一些了具体可以直接看你购买域名的平台，它们一般都提供这些服务，实在不行直接call电话。不过作为一个blog的网站服务托管在githbub，其实也算是国外的网站。所以我没有备案。</p><h3 id="更换域名服务器指向"><a href="#更换域名服务器指向" class="headerlink" title="更换域名服务器指向"></a>更换域名服务器指向</h3><p>有了域名之后就需要更换一下域名的服务器的指向了，因为我们的加速服务和https服务都是在cloudflare上面的，而每个域名都会有一个域名服务器，我们需要做的就是将在服务提供商的域名服务器指向自己的cloudflare分配的地址，之后就可以正常通过域名访问到github page了</p><h3 id="自己遇到的问题"><a href="#自己遇到的问题" class="headerlink" title="自己遇到的问题"></a>自己遇到的问题</h3><h4 id="https无限跳转"><a href="#https无限跳转" class="headerlink" title="https无限跳转"></a>https无限跳转</h4><p>关于无限跳转就是我访问我自定义域名的时候无限之的跳抓到自定义域名的https，经过一番查找发现是加密模式的问题，本来是第二个灵活的选项（这个选项的意思就是浏览器到cloudflare加密，cloudflare到服务器没有加密），因为开了CDN加速，浏览器每次访问cloudflare都是https，而cloudflare每次请求都是http,而http会被重定向到https（cloudflare自己）就这么造成了死循环，将加密改为完全加密之后cloudflare的请求也是https了，也就不会循环了</p><p><img src="/2024/06/13/hexo-github%E6%90%AD%E5%BB%BAblog/yuanzhang/blog/cx330zer0.blog/source/_posts/hexo-github%E6%90%AD%E5%BB%BAblog/image-20240616225305466.png" alt="image-20240616225305466"></p><h4 id="github-404"><a href="#github-404" class="headerlink" title="github 404"></a>github 404</h4><p>经过查找发现是每次push完新内容之后都会自动重制我的自定义域名，只需要在根目录写一个名为CNAME的文件，内容是你的自定义域名</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>教程</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>hexo</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>2024.6.12--有感而记</title>
     <link href="/2024/06/12/2024-6-12-%E6%9C%89%E6%84%9F%E8%80%8C%E8%AE%B0/"/>
     <url>/2024/06/12/2024-6-12-%E6%9C%89%E6%84%9F%E8%80%8C%E8%AE%B0/</url>
