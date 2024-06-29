@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>如何让m系列macbook上的kali编译和执行x86-64程序？</title>
+    <link href="/2024/06/29/m1-macbook-run-x86/"/>
+    <url>/2024/06/29/m1-macbook-run-x86/</url>
+    
+    <content type="html"><![CDATA[<h1 id="如何让m系列macbook上的kali编译和执行x86-64程序？"><a href="#如何让m系列macbook上的kali编译和执行x86-64程序？" class="headerlink" title="如何让m系列macbook上的kali编译和执行x86-64程序？"></a>如何让m系列macbook上的kali编译和执行x86-64程序？</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>首先我来说说我为什么会写下这篇教程吧，我的macbook是m系列芯片，也就是arm架构的，当时macbook发布的时候震惊了很多人，当然也包括我，因为它的能耗比实在是太诱人了，那时候我中学快毕业了，刚好在参加网络安全相关的比赛，拿了奖，那时候的特别膨胀，毕竟快要大学了嘛，这不得整一台好一点的电脑，一开始我很想买一个windows的高性能笔记本，因为那样子就可以愉快的玩游戏，但是那时候的macook实在是太诱人了，并且外观和屏幕都是我喜欢的类型算是我梦寐以求的电脑了，在拥有了它之后发现了很多问题，尤其是关于异架构的编译和运行，因为那个时候经常使用windows系统导致我一开始特别不适应，很多东西都是只知道windows的而mac的程序很多也都是要转译运行，但是那样子能耗比不高，为了保持购买的初心能耗比必须下来！！！于是找相关的开源软件和程序都是尽量找arm架构原生运行的，不过在安全学习过程中会遇到很多只有源码或者只有x86架构的程序，我的kali很多时候运行不了，为了解决这个问题就出现了这篇文章的主题。</p><h2 id="依赖环境"><a href="#依赖环境" class="headerlink" title="依赖环境"></a>依赖环境</h2><p>第一步是完成前置条件，我们需要在kali上安装好qemu和docker，这里可以参考kali官方给出的<a href="https://www.kali.org/docs/arm/x86-on-arm/">文章</a>进行安装其实kali官方是给出了这个方案的，不过那时候想着效率还是自己编译最好，如果需要编译的话就需要一台x86的机器，但是我们的docker可以完成，我使用的是paralles Desktop，设置里面有一个使用Rosetta运行x86-64二进制文件的选项记得钩上。</p><p>安装qemu</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs shell">kali@kali:~$ wget https://snapshot.debian.org/archive/debian/20240509T024809Z/pool/main/q/qemu/qemu-user-static_8.2.3%2Bds-2_arm64.deb<br>kali@kali:~$ <br>kali@kali:~$ sudo apt install ./qemu-user-static_8.2.3+ds-2_arm64.deb<br>kali@kali:~$ <br>kali@kali:~$ sudo apt update<br>kali@kali:~$<br>kali@kali:~$ sudo apt install -y qemu-user-static binfmt-support<br>kali@kali:~$<br>kali@kali:~$ sudo dpkg --add-architecture amd64<br>kali@kali:~$<br>kali@kali:~$ sudo apt update<br>kali@kali:~$<br>kali@kali:~$ sudo apt install libc6:amd64<br>kali@kali:~$#至此qemu的环境算是安装完成了<br></code></pre></td></tr></table></figure><p>安装docker</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">apt install docker.io #没错kali上确实很简单<br>systemctl restart docker #至此docker也完成了<br></code></pre></td></tr></table></figure><h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>以下是经常使用的指令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs shell">docker pull --platform=linux/amd64 ubuntu:14.04 #拉取x86架构的ubuntu指定自己需要的版本即可<br>docker run -it ubuntu:14.04  /bin/bash #运行并开启一个交互式shell进入x86版本的ubuntu<br><br><br>docker ps -a #查看所有容器<br>docker start &lt;container name/id&gt; #开启容器<br>docker exec -it &lt;container name/id&gt; /bin/bash #开启一个交互式shell<br><br><br>docker cp &lt;container name/id&gt;:/container/path/filename.txt /local/path/filename.txt #从容器中copy文件<br>docker cp /local/path/filename.txt &lt;container name/id&gt;:/container/path/filename.txt #从宿主机copy文件到容器<br></code></pre></td></tr></table></figure><p>至此就可以实现x86代码编译自由了.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>kali</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2024.6.23应急响应期末作业</title>
     <link href="/2024/06/23/2024-6-23%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/"/>
     <url>/2024/06/23/2024-6-23%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/</url>
@@ -63,7 +88,7 @@
     
     <categories>
       
-      <category>感想 - 感想</category>
+      <category>感想</category>
       
     </categories>
     
