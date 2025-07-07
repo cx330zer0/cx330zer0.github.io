@@ -1,0 +1,19 @@
+baseURL: https://cx330zer0.github.io/
+languageCode: cn-zh
+title: zer0's Blog
+theme: ["PaperMod"]
+params:
+  homeInfoParams:
+    Title: 欢迎来到我的博客
+    Content: 这里是我的个人博客，记录我的学习和生活。
+
+  socialIcons: 
+    - name: BiLiBili
+      url: "https://space.bilibili.com/403979460?spm_id_from=..0.0"
+
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
